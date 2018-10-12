@@ -19,11 +19,9 @@ Data Analysis and Report
 
 .. toctree::
    :maxdepth: 1
-   :caption: EnOS Data Explorer
+   :caption: EnOS BI & Report
 
    bi_report/overview
-   bi_report/gettingstarted
-   bi_report/creating_report
 
 .. toctree::
    :maxdepth: 1

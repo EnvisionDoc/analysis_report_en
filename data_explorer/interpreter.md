@@ -1,17 +1,20 @@
-# Interpreter Supported
+# Supported interpreters
 
-#### %hive
+## `%hive`
 
-Example1: Show you how to use hql to query a table raw data.
+The following example shows how to use SQL to query a table of raw data.
+
 ```sql
 %hive
 select * from bank limit 10;
 ```
-Click button "run this paragraph", then result is as blow.
+Click ![](media/run_note.png) to run the paragraph of code, and you'll get results similar to what's shown as follows.
 ![data_explorer_pic](media/data_explorer_pic_3.png)
 
-#### %livy.spark
-Example2: Read file "bank.csv" and count the number of rows.
+## `%livy.spark`
+
+The following example shows how to read file `bank.csv` and count the number of rows.
+
 ```
 %livy.spark
 val bank = sc.textFile("/user/data_explore_product_db/spark/input/bank.csv")
@@ -19,32 +22,53 @@ bank.count
 ```
 ![data_explorer_pic](media/data_explorer_pic_4.png)
 
-#### %livy.pyspark
-Example3:
-```
+## `%livy.pyspark`
+
+The following samples code reads the table file `bank.csv` and count the number of rows excluding the first row, and displays the first ten rows of data.
+
+```python
+%livy.pyspark
+from pyspark import SparkContext
+from pyspark.sql import SQLContext
+spark = SparkSession \
+    .builder \
+    .appName("PySparkTest") \
+    .getOrCreate()
+sc = spark.sparkContext
+sc.setLogLevel("INFO")
+
+sqlContext = SQLContext(sc)
+df=sqlContext.read.format('com.databricks.spark.csv').options(header='true', inferschema='true').load("/user/data_explore_product_db/pyspark/input/bank.csv")
+
+print df.count()
+df.show(10)
 ```
 
-#### %md
-Example4: Supports markdown syntax.
+![data_explorer_pic](media/data_explorer_pic_5.png)
+
+## `%md`
+The following example shows a markdown sample:
+
 ```markdown
 %md
 # hello world
 - **hello world**
 ```
+
 ![data_explorer_pic](media/data_explorer_pic_6.png)
 
 
-#### %mysql_report
-Access the database of BI&Report.  
+## `%mysql_report`
+The following example shows how to retrive data from the database of EnOS BI&Report:
 
-Example5:
 ```sql
 %mysql_report
 select * from bank limit 10;
 ```
 ![data_explorer_pic](media/data_explorer_pic_7.png)
 
-Example6:
+The following example shows how to retrieve data with a more complex SQL query:
+
 ```sql
 %mysql_report
 select ${group_by}, count(1)as count, avg(balance)as balance_avg
@@ -54,8 +78,10 @@ group by ${group_by=education,education|job|age|marital};
 ```
 ![data_explorer_pic](media/data_explorer_pic_8.png)
 
-#### %python
-Example7: Show the fundamental operation of python, mark two coordinate points.
+## `%python`
+
+The following example shows the foundational operation of python, that is to mark two coordinate points.
+
 ```python
 %python
 import matplotlib.pyplot as plt
@@ -64,8 +90,9 @@ plt.plot([1,2,3,4], [1,4,9,16], 'ro')
 ```
 ![data_explorer_pic](media/data_explorer_pic_9.png)
 
-#### %sh
-Example8: Show the fundamental operation of shell.
+## %sh
+
+The following example shows the foundational operation of shell.
 ```
 %sh
 whoami

@@ -2,59 +2,66 @@
 
 A typical flow to use Data Explorer to explorer data is as follows:
 
-### Step1: Create a new note
-- Click "New note"
-- Enter "Name" and "Type". You can choose any "Type", programs' run-time is not limited to it
-- Go to this note and begin your work  
+## Step 1: Create a new note
 
-![data_explorer_pic](media/gettingstarted_1.gif)
+1. Click **Data Explorer** from the left navigation panel of EnOS Console.
+2.  Click **New note**.
+3. In the **New Note** window, enter the name of the notebook and select the note type.
+4. Click ![](media/enter_note.png) to enter the note and begin your work.
 
-### Step2: Coding in a paragraph and running with interpreter
-- The interpreters we have already supported are as blow:
-  hive, spark, markdown, mysql, python, Shell
-- Use percent specified interpreter:
-  <body>
-  <table border="1" cellspacing="0" cellpadding="0" width="798">
+  ![data_explorer_pic](media/gettingstarted_1.gif)
+
+## Step 2: Program and run your codes with interpreter
+
+To invoke an interpreter, enter `%<interpreter_name>` (percent). The following table lists the supported interpreters and how to invoke.
+
+**Tips**: After you select a note type in Step 1, the corresponding interpreter is automatically associated so that you don't need to invoke the interpreter using the percent sign again. However, if you want to invoke another interpreter other than what you specified in Step 1, you can use the syntax as shown in the following table.
+
+  <table>
   <tr>
-    <td><strong>Interpreter</strong></td>
-    <td><strong>Using method</strong></td>
+    <th>Interpreter</th>
+    <th>`%<interpreter_name>`</th>
   </tr>
   <tr>
     <td>hive</td>
-    <td valign="top">%hive</td>
+    <td>%hive</td>
   </tr>
   <tr>
     <td>spark</td>
-    <td valign="top">%livy.spark</td>
+    <td>%livy.spark</td>
   </tr>
   <tr>
     <td>pyspark</td>
-    <td valign="top">%livy.pyspark</td>
+    <td>%livy.pyspark</td>
   </tr>
   <tr>
     <td>markdown</td>
-    <td valign="top">%md</td>
+    <td>%md</td>
   </tr>
   <tr>
     <td>mysql</td>
-    <td valign="top">%mysql_report</td>
+    <td>%mysql_report</td>
   </tr>
   <tr>
     <td>python</td>
-    <td valign="top">%python</td>
+    <td>%python</td>
   </tr>
   <tr>
     <td>shell</td>
-    <td valign="top">%sh</td>
+    <td>%sh</td>
   </tr>
 </table>
 </body>
 
 
 ![data_explorer_pic](media/gettingstarted_2.gif)
-### Step3: Data visualization
-- Choose the basic charts to assistant you to analysis, such as: table, Bar Chart, Pie Chart, Area Chart, Line Chart, Scatter Chart.  
 
-  Take the content of a certain column "education" as a group, then count the data volume under each group. Also you can switch to another group such as "job" or "age" or "marital". As follows:  
+## Step 3: Visualize data
 
-  ![data_explorer_pic](media/data_explorer_pic_2.png)
+Choose the built-in types of charts to assistant you to analyze your data.
+
+The following screenshot shows an example pie chart that visualizes the composition of a group of people in terms of education level.
+
+You can switch other grouping criteria such as **job** or **age** or **marital**.
+
+![data_explorer_pic](media/data_explorer_pic_2.png)

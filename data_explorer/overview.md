@@ -1,22 +1,22 @@
-# Data Explorer
+# Data Explorer Overview
 
-## Overview
+EnOS Data Explorer is designed to support flexible data analysis scenarios. It is based on the open-source Apache Zeppelin project, which is a web-based notebook that enables data-driven, interactive data analytics, and collaborative documents with SQL, Scala and more.
 
-Data Explorer is designed to support flexible data analysis scenarios, it's based on the open source project "Apache Zeppelin" which is a web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.
+#### Overview
 
-Data Explorer helps developers, data scientists and relevant user roles process data more efficiently without having to use complex command lines or caring about clustering implementation details.
+Data Explorer helps developers, data scientists, and relevant user roles process data more efficiently without having to use complex command lines or caring about clustering implementation details.
 
-## Key benefits
+#### Key benefits
 
-- **Data Discovery & Analytics**: Data Explorer supports multiple languages, you can easy to write the queries or processes to transform your data and extract valuable insights.
+- **Discovery & analytics**: Data Explorer supports multiple languages, you can easily write the queries or scripts to transform your data and extract insights.
 
-- **Data Visualization & Collaboration**: Some basic charts are already included in it, such as histogram, pie chart, line chart, scatter chart, etc. Visualizations are not limited to SparkSQL query, any output from any language backend can be recognized and visualized.
+- **Visualization & collaboration**: Data Explorer provides per-built diagrams such as histogram, pie chart, line chart, and scatter chart. Data visualization is not limited to SparkSQL queries. You can obtain different outputs through different languages.
 ![data_explorer_pic](media/data_explorer_pic_1.png)
 
-## Key concepts
+#### Key concepts
 
-- **Interpreter**: A gateway connecting specific back-end framework to run actual code. We have already supported many interpreters such as Apache Spark, Python, JDBC, Markdown and Shell.
+- **Interpreter**: A gateway connecting specific back-end framework to run actual code. The EnOS Data Explorer supports various interpreters. For more information, see [Supported interpreters](interpreter).
 
-- **Paragraph**: The minimum unit to be executed with specified interpreter.
+- **Paragraph**: The minimum executable unit for a specified interpreter. 
 
 - **Note**: A set of paragraphs. A note can bind multiple interpreters.
