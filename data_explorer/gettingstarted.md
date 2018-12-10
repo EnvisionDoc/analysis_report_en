@@ -17,7 +17,8 @@ To invoke an interpreter, enter `%<interpreter_name>` (percent). The following t
 
 **Tips**: After you select a note type in Step 1, the corresponding interpreter is automatically associated so that you don't need to invoke the interpreter using the percent sign again. However, if you want to invoke another interpreter other than what you specified in Step 1, you can use the syntax as shown in the following table.
 
-  <table>
+
+<table>
   <tr>
     <th>Interpreter</th>
     <th>`%<interpreter_name>`</th>
@@ -51,7 +52,6 @@ To invoke an interpreter, enter `%<interpreter_name>` (percent). The following t
     <td>%sh</td>
   </tr>
 </table>
-</body>
 
 
 ![data_explorer_pic](media/gettingstarted_2.gif)

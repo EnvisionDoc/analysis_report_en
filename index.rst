@@ -4,6 +4,7 @@ Data Analysis and Report
 
 .. toctree::
    :maxdepth: 1
+   :hidden: 
    :caption: Back to
 
    EnOS fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
