@@ -1,43 +1,52 @@
-***********************
+﻿***********************
 Data Analysis and Report
 ***********************
 
 .. toctree::
    :maxdepth: 1
-   :hidden: 
+   :hidden:
    :caption: Back to
 
-   EnOS fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
-
-.. toctree::
-    :maxdepth: 1
-    :caption: EnOS Data Explorer
-
-    data_explorer/overview
-    data_explorer/gettingstarted
-    data_explorer/interpreter
-    data_explorer/creating_hivetable
+   EnOS™ Fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
 
 .. toctree::
    :maxdepth: 1
-   :caption: EnOS BI & Report
+   :caption: Concept
 
-   bi_report/overview
+   report_overview
+   report_concepts
+   report_architecture
 
 .. toctree::
    :maxdepth: 1
-   :caption: Tableau Server
+   :caption: Getting Started
 
-   tableau/overview
-   tableau/using_tableau_server
-   tableau/sample_code
+   gettingstarted_report
+
+.. toctree::
+   :maxdepth: 1
+   :caption: How-to's
+
+   managing_datasource
+   creating_dataset
+   managing_dataset
+   creating_report
+   charts_controls/index
+   managing_report
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Reference
+
+   best_practice
+   report_faq
 
 .. toctree::
    :maxdepth: 1
    :caption: Related Services
 
-   Real-time data processing <https://docs.envisioniot.com/docs/online-data/en/latest/>
-   Batch data processing <https://docs.envisioniot.com/docs/offline-data/en/latest/>
+   Stream Analytics <https://docs.envisioniot.com/docs/online-data/en/latest/streaming_overview.html>
+   Offline Analytics <https://docs.envisioniot.com/docs/offline-data/en/latest/gettingstarted.html>
 
 Downloads
 """"""""
