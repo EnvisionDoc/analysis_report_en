@@ -1,274 +1,245 @@
-# 条件查询
+# Query Condition
 
-制作报表时，可以配置条件查询控件，来查询1个或多个图表的数据。
+When creating reports, you can use the query condition control to set filters for querying data in one or multiple charts.
 
-当前支持输入框、下拉选择、日期选择、树状选择及平铺选择，具体的过滤条件说明如下：
+Currently, the query condition control supports control types such as input box, drop down selection, date selection, tree selection, and tile selection. Detailed filtering conditions are as follows:
 
-<table> 
-  <tr> 
-    <td>控件类型</td> 
-    <td>过滤条件</td> 
-  </tr> 
-  <tr> 
-    <td>输入框</td> 
-    <td>等于、不等于、大于、大于等于、小于、小于等于、介于、模糊匹配、模糊不匹配</td> 
-  </tr> 
-  <tr> 
-    <td>下拉选择</td> 
-    <td>等于、介于</td> 
-  </tr> 
-  <tr> 
-    <td>平铺选择</td> 
-    <td>等于、介于</td> 
-  </tr> 
-  <tr> 
-    <td>树状选择</td> 
-    <td>介于</td> 
-  </tr> 
-  <tr> 
-    <td>日期选择</td> 
-    <td>日范围、周范围、月范围、年范围</td> 
-  </tr> 
+<table>
+  <tr>
+    <td>Control Type</td>
+    <td>Filtering Condition</td>
+  </tr>
+  <tr>
+    <td>Input box</td>
+    <td>Equal to, Not equal to, Greater than, Greater or equal, Less than, Less or equal, Between, Fuzzy match, Fuzzy mismatch</td>
+  </tr>
+  <tr>
+    <td>Drop down selection</td>
+    <td>Equal to, Between</td>
+  </tr>
+  <tr>
+    <td>Tile selection</td>
+    <td>Equal to, Between</td>
+  </tr>
+  <tr>
+    <td>Tree selection</td>
+    <td>Between</td>
+  </tr>
+  <tr>
+    <td>Date selection</td>
+    <td>Day range, Week range, Month range, Year range</td>
+  </tr>
 </table>
 
-下面以柱图为例，说明条件查询控件的使用方式。
+The following sections introduce the usage of the query condition control by taking bar chart as example.
 
-## 前置条件
+## Prerequisites
 
-创建报表，至少添加1个图表，并完成数据配置。
+A report has been created with at least 1 chart (with data configuration completed).
 
-## 基本概念
+## Concept
 
-关联字段：在配置条件查询控件时，需要选择图表的关联字段（维度字段）。输入的查询条件将作为过滤条件，过滤被关联图表中维度值等于过滤值的数据。在本例中，当选择柱图中的某个维度值作为关联字段，输入查询条件后，将筛选柱图的数据。
-
-
-
-## 输入框
-
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
-
-2. 双击柱图图标![bar_icon](../media/bar_icon.png)，柱图的图例会自动显示在报表展示区。在数据标签页，完成数据配置。
-
-3. 在控件标签下双击**条件查询**图标![search_icon](../media/search_icon.png)，条件查询控件的图例会自动显示在报表展示区。
-
-4. 在条件配置标签中，点击**添加条件查询**，在弹框中配置查询条件。
-
-5. 输入名称，必填，支持中文，英文及特殊字符，不超过50个字符。
-
-6. 选择**关联字段**，通常情况下，每个图表仅选择一个维度字段。
-
-7. 在控件类型下拉列表中选择**输入框**，在过滤条件下拉列表中选择**等于**。
-
-8. 点击**确定**，完成过滤条件配置。
-
-   ![search_config_input](../media/search_config_input.png)
-
-9. 在条件查询控件中输入过滤条件，点击**查询**，被关联的柱图将按查询条件过滤数据。
-
-10. 选中条件查询"控件，在条件配置标签下，可以**编辑，删除，显示或隐藏条件**，以及继续**添加条件配置**。
-
-    ![search_config_tab](../media/search_config_tab.png)
-
-11. 条件配置完成后，可以选择样式标签，设置条件查询的样式。样式设置实时生效，具体说明如下:
-
-    - 是否显示标题
-
-    - 是否显示边框
-
-      ![search_legend_input](../media/search_legend_input.png)
-
-12. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](D:/docs/analysis_report_zh/media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
-
-13. 配置完成后，点击工具栏中的**保存**。
+Data field association: When configuring the query condition control, you need to select a data field (measure) of the chart to be associated. The selected query condition will be used to filter data in the associated data field. In the following examples, after you specify a data field of the bar chart, the selected query conditions will filter data of the bar chart.
 
 
 
-## 下拉选择
+## Input Box
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
+1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-2. 双击柱图图标![bar_icon](../media/bar_icon.png)，柱图的图例会自动显示在报表展示区。在数据标签页，完成数据配置。
+2. Double-click the **Bar chart** icon ![bar_icon](../media/bar_icon.png) under the **Charts** tab. The bar chart template is added to the report display section. Complete the data configuration of the bar chart under the **Data** tab.
 
-3. 在控件标签下双击**条件查询**图标![search_icon](../media/search_icon.png)，条件查询控件的图例会自动显示在报表展示区。
+3. Double-click the **Query condition** icon ![search_icon](../media/search_icon.png) under the **Controls** tab. The Query condition template is added to the report display section.
 
-4. 在条件配置标签中，点击**添加条件查询**，在弹框中配置查询条件。
+4. Under the **Condition config** tab, click **Add config**, and complete the query condition configuration in the pop-up window.
 
-5. 输入名称，必填，支持中文，英文及特殊字符，不超过50个字符。
+5. Enter query condition name (supporting Chinese, English, and special characters, with a limit of 50 characters).
 
-6. 选择**关联字段**，通常情况下，每个图表仅选择一个维度字段。
+6. Select the data field to be associated. Generally, select 1 measure field for each chart.
 
-7. 在控件类型下拉列表中选择**下拉选择**，在过滤条件下拉列表中选择**等于**。
+7. Select **Input box** from the Control type drop-down list and select **Equal to** as the filtering condition.
 
-8. 在选择默认值中选择**手工输入**，然后在下方的条件配置中，配置查询条件。
+8. Click **OK** to complete the query condition configuration.
 
-9. 添加**显示名称**，必填，支持中文，英文及特殊字符，不超过50个字符。
+    ![search_config_input](../media/search_config_input.png)
 
-10. 添加**值**，必填。此处值将作为实际的过滤条件，筛选关联图表的数据。
+9. In the query condition control, enter the filtering keywords, and click the **Query** button. The bar chart will display the queried data.
 
-11. 点击**+**，添加新的条件，点击箭头调整条件先后顺序，点击删除，删除所选条件。
+     ![search_legend_input](../media/search_legend_input.png)
 
-12. 点击**确定**，完成过滤条件配置。
-
-    ![search_config_dropdown](../media/search_config_dropdown.png)
-
-13. 在条件查询控件中选择过滤条件，点击**查询**，被关联的柱图将按查询条件过滤数据。
-
-14. 选中条件查询"控件，在条件配置标签下，可以**编辑，删除，显示或隐藏条件**，以及继续**添加条件配置**。
+10. Select the query condition control, you can then edit or delete it, or add another query condition under the **Condition config** tab.
 
     ![search_config_tab](../media/search_config_tab.png)
 
-15. 条件配置完成后，可以选择样式标签，设置条件查询的样式。样式设置实时生效，具体说明如下:
+11. After the query condition configuration is completed, you can set the layout of the query condition control under the **Style** tab. The style settings take effect in real time.
 
-    - 是否显示标题
+     - Checkbox for displaying title
+     - Checkbox for displaying border
 
-    - 是否显示边框
+12. To delete the image control, select it first, click the ![chart_spread](../media/chart_spread.png) icon in the upper right corner of the control, and select **Delete**.
+
+13. After all configuration is completed, click **Save** in the tool bar to save the query condition control.
+
+
+
+## Drop Down Selection
+
+1. Select the query condition control template and click **Add config** under the **Condition config** tab.
+
+2. In the **Add config** pop-up window, complete the query condition configuration.
+
+3. Enter query condition name (supporting Chinese, English, and special characters, with a limit of 50 characters).
+
+4. Select the data field to be associated. Generally, select 1 measure field for each chart.
+
+5. Select **Drop down selection** from the **Control type** drop-down list and select **Equal to** as the filtering condition.
+
+6. Select **Manual input** for the **Select value** field and set filtering conditions.
+
+7. Enter names of the filtering conditions (supporting Chinese, English, and special characters, with a limit of 50 characters).
+
+8. Enter values of the filtering conditions, which will be used to filter data in the associated chart.
+
+9. Click **+** to add new filtering conditions, click the arrow to change the order of the filtering conditions, and click Delete to remove filtering conditions.
+
+10. Click **OK** to complete the query condition configuration.
+
+     ![search_config_dropdown](../media/search_config_dropdown.png)
+
+11. In the query condition control, select a filtering condition from the drop down list, and click the **Query** button. The bar chart will display the queried data.
 
       ![search_legend_dropdown](../media/search_legend_dropdown.png)
 
-16. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](D:/docs/analysis_report_zh/media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
+12. Select the query condition control, you can then edit or delete it, or add another query condition under the **Condition config** tab.
 
-17. 配置完成后，点击工具栏中的**保存**。
+      ![search_config_tab](../media/search_config_tab.png)
 
-当选择默认值下拉列表中选择维表时，需要先选择数据集。然后在所选数据集中选择下拉选择的**显示名称**字段，以及对应的**值**字段。通常，显示名称字段和值字段是同一个字段。
+13. After the query condition configuration is completed, you can set the layout of the query condition control under the **Style** tab. The style settings take effect in real time.
+
+     - Checkbox for displaying title
+     - Checkbox for displaying border
+
+14. To delete the image control, select it first, click the ![chart_spread](../media/chart_spread.png) icon in the upper right corner of the control, and select **Delete**.
+
+15. After all configuration is completed, click **Save** in the tool bar to save the query condition control.
 
 
 
-## 平铺选择
+## Tile Selection
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
+1. Select the query condition control template and click **Add config** under the **Condition config** tab.
 
-2. 双击柱图图标![bar_icon](../media/bar_icon.png)，柱图的图例会自动显示在报表展示区。在数据标签页，完成数据配置。
+2. In the **Add config** pop-up window, complete the query condition configuration.
 
-3. 在控件标签下双击**条件查询**图标![search_icon](../media/search_icon.png)，条件查询控件的图例会自动显示在报表展示区。
+3. Enter query condition name (supporting Chinese, English, and special characters, with a limit of 50 characters).
 
-4. 在条件配置标签中，点击**添加条件查询**，在弹框中配置查询条件。
+4. Select the data field to be associated. Generally, select 1 measure field for each chart.
 
-5. 输入名称，必填，支持中文，英文及特殊字符，不超过50个字符。
+5. Select **Tile selection** from the **Control type** drop-down list and select **Equal to** as the filtering condition.
 
-6. 选择**关联字段**，通常情况下，每个图表仅选择一个维度字段。
+6. Select **Manual input** for the **Select value** field and set filtering conditions.
 
-7. 在控件类型下拉列表中选择**平铺选择**，在过滤条件下拉列表中选择**等于**。
+7. Enter names of the filtering conditions (supporting Chinese, English, and special characters, with a limit of 50 characters).
 
-8. 在选择默认值中选择**手工输入**，然后在下方的条件配置中，配置查询条件。
+8. Enter values of the filtering conditions, which will be used to filter data in the associated chart.
 
-9. 添加**显示名称**，必填，支持中文，英文及特殊字符，不超过50个字符。
+9. Click **+** to add new filtering conditions, click the arrow to change the order of the filtering conditions, and click Delete to remove filtering conditions.
 
-10. 添加**值**，必填。此处值将作为实际的过滤条件，筛选关联图表的数据。
-
-11. 点击**+**，添加新的条件，点击箭头调整条件先后顺序，点击删除，删除所选条件。
-
-12. 点击**确定**，完成过滤条件配置。
+10. Click **OK** to complete the query condition configuration.
 
     ![search_config_tile](../media/search_config_tile.png)
 
-13. 在条件查询控件中选择过滤条件，点击**查询**，被关联的柱图将按查询条件过滤数据。
+11. In the query condition control, click on a filtering condition and click the **Query** button. The bar chart will display the queried data.
 
-14. 选中条件查询"控件，在条件配置标签下，可以**编辑，删除，显示或隐藏条件**，以及继续**添加条件配置**。
+     ![search_legend_tile](../media/search_legend_tile.png)
 
-    ![search_config_tab](../media/search_config_tab.png)
+12. Select the query condition control, you can then edit or delete it, or add another query condition under the **Condition config** tab.
 
-15. 条件配置完成后，可以选择样式标签，设置条件查询的样式。样式设置实时生效，具体说明如下:
+     ![search_config_tab](../media/search_config_tab.png)
 
-    - 是否显示标题
+13. After the query condition configuration is completed, you can set the layout of the query condition control under the **Style** tab. The style settings take effect in real time.
 
-    - 是否显示边框
+     - Checkbox for displaying title
+     - Checkbox for displaying border
 
-      ![search_legend_tile](../media/search_legend_tile.png)
+14. To delete the image control, select it first, click the ![chart_spread](../media/chart_spread.png) icon in the upper right corner of the control, and select **Delete**.
 
-16. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](D:/docs/analysis_report_zh/media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
-
-17. 配置完成后，点击工具栏中的**保存**。
-
-当选择默认值下拉列表中选择维表时，需要先选择数据集。然后在所选数据集中选择下拉选择的**显示名称**字段，以及对应的**值**字段。通常，显示名称字段和值字段是同一个字段。
+15. After all configuration is completed, click **Save** in the tool bar to save the query condition control.
 
 
 
-## 树状选择
+## Tree Selection
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
+1. Select the query condition control template and click **Add config** under the **Condition config** tab.
 
-2. 双击柱图图标![bar_icon](../media/bar_icon.png)，柱图的图例会自动显示在报表展示区。在数据标签页，完成数据配置。
+2. In the **Add config** pop-up window, complete the query condition configuration.
 
-3. 在控件标签下双击**条件查询**图标![search_icon](/../media/search_icon.png)，条件查询控件的图例会自动显示在报表展示区。
+3. Enter query condition name (supporting Chinese, English, and special characters, with a limit of 50 characters).
 
-4. 在条件配置标签中，点击**添加条件查询**，在弹框中配置查询条件。
+4. Select the data field to be associated. Generally, select 1 measure field for each chart.
 
-5. 输入名称，必填，支持中文，英文及特殊字符，不超过50个字符。
+5. Select **Tree selection** from the **Control type** drop-down list
 
-6. 选择**关联字段**，通常情况下，每个图表仅选择一个维度字段。
+6. Select a dataset for the **Select value** field and complete filtering conditions. At most 4 tree levels are supported.
 
-7. 在控件类型下拉列表中选择**树状选择**。
+7. Select a data field for the name and a data field for the value. Usually, the name field and the value field  are the same.
 
-8. 在选择默认值中选择数据集，然后在下方的条件配置中，配置查询条件，且最多支持**4层**树状结构。
+8. Click the![search_config_tree_cleanup](../media/search_config_tree_cleanup.png)icon to remove the filtering condition.
 
-9. 添加**显示名称**，在下拉列表中选择显示名称字段。
+9. Click **OK** to complete the query condition configuration.
 
-10. 添加**值**，在下拉列表中选择值字段。通常，显示名称字段和值字段是同一个字段。
+     ![search_config_tree](../media/search_cofig_tree.png)
 
-11. 点击![search_config_tree_cleanup](../media/search_config_tree_cleanup.png),清除字段配置信息。
-
-12. 点击**确定**，完成过滤条件配置。
-
-    ![search_config_tree](../media/search_cofig_tree.png)
-
-13. 在条件查询控件中选择过滤条件，点击**查询**，被关联的柱图将按查询条件过滤数据。
-
-14. 选中条件查询"控件，在条件配置标签下，可以**编辑，删除，显示或隐藏条件**，以及继续**添加条件配置**。
-
-    ![search_config_tab](../media/search_config_tab.png)
-
-15. 条件配置完成后，可以选择样式标签，设置条件查询的样式。样式设置实时生效，具体说明如下:
-
-    - 是否显示标题
-
-    - 是否显示边框
+10. In the query condition control, select a filtering condition and click the **Query** button. The bar chart will display the queried data.
 
       ![search_legend_tree](../media/search_legend_tree.png)
 
-16. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](D:/docs/analysis_report_zh/media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
+11. Select the query condition control, you can then edit or delete it, or add another query condition under the **Condition config** tab.
 
-17. 配置完成后，点击工具栏中的**保存**。
+       ![search_config_tab](../media/search_config_tab.png)
+
+12. After the query condition configuration is completed, you can set the layout of the query condition control under the **Style** tab. The style settings take effect in real time.
+
+     - Checkbox for displaying title
+     - Checkbox for displaying border
+
+13. To delete the image control, select it first, click the ![chart_spread](../media/chart_spread.png) icon in the upper right corner of the control, and select **Delete**.
+
+14. After all configuration is completed, click **Save** in the tool bar to save the query condition control.
 
 
 
-##日期选择
+## Date Selection
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
+1. Select the query condition control template and click **Add config** under the **Condition config** tab.
 
-2. 双击柱图图标![bar_icon](/../media/bar_icon.png)，柱图的图例会自动显示在报表展示区。在数据标签页，完成数据配置。
+2. In the **Add config** pop-up window, complete the query condition configuration.
 
-3. 在控件标签下双击**条件查询**图标![search_icon](../media/search_icon.png)，条件查询控件的图例会自动显示在报表展示区。
+3. Enter query condition name (supporting Chinese, English, and special characters, with a limit of 50 characters).
 
-4. 在条件配置标签中，点击**添加条件查询**，在弹框中配置查询条件。
+4. Select the data field to be associated. Generally, select 1 measure field for each chart.
 
-5. 输入名称，必填，支持中文，英文及特殊字符，不超过50个字符。
+5. Select **Date selection** from the **Control type** drop-down list and select **Month range** > **Last 3 months** for the value.
 
-6. 选择**关联字段**，通常情况下，每个图表仅选择一个维度字段。
+6. Click **OK** to complete the query condition configuration.
 
-7. 在控件类型下拉列表中选择**日期选择**，在过滤条件下拉列表中选择**月范围**。
+     ![search_config_calendar](../media/search_config_calendar.png)
 
-8. 在选择默认值中，选择**过去3个月**。
+7. In the query condition control, select a filtering condition and click the **Query** button. The bar chart will display the queried data.
 
-9. 点击**确定**，完成过滤条件配置。
+     ![search_legend_calendar](../media/search_legend_calendar.png)
 
-   ![search_config_calendar](../media/search_config_calendar.png)
+8. Select the query condition control, you can then edit or delete it, or add another query condition under the **Condition config** tab.
 
-10. 在条件查询控件中选择过滤条件，点击**查询**，被关联的柱图将按查询条件过滤数据。
+     ![search_config_tab](../media/search_config_tab.png)
 
-11. 选中条件查询"控件，在条件配置标签下，可以**编辑，删除，显示或隐藏条件**，以及继续**添加条件配置**。
+9. After the query condition configuration is completed, you can set the layout of the query condition control under the **Style** tab. The style settings take effect in real time.
 
-    ![search_config_tab](../media/search_config_tab.png)
+   - Checkbox for displaying title
+   - Checkbox for displaying border
 
-12. 条件配置完成后，可以选择样式标签，设置条件查询的样式。样式设置实时生效，具体说明如下:
+10. To delete the image control, select it first, click the ![chart_spread](../media/chart_spread.png) icon in the upper right corner of the control, and select **Delete**.
 
-    - 是否显示标题
+11. After all configuration is completed, click **Save** in the tool bar to save the query condition control.
 
-    - 是否显示边框
-
-      ![search_legend_calendar](../media/search_legend_calendar.png)
-
-13. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
-
-14. 配置完成后，点击工具栏中的**保存**。
-
-13. > 请注意，选择日期选择的条件查询控件时，关联图表的维度字段，其数据类型必须为日期类，如DATA，DATATIME，TIMESTAMP，TIME，YEAR等。
+    **Note**: When **Date selection** control type is selected, the data type of the associated chart measure field must be date type, such as DATA, DATATIME, TIMESTAMP, TIME, and YEAR.

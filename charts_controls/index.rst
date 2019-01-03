@@ -22,3 +22,4 @@ Besides, BI & Report service also provides controls like text box, iFrame, query
    iframe
    conditioned_query
    figure
+   multiple_chart_interlock

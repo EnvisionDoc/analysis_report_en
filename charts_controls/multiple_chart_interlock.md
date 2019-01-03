@@ -1,33 +1,33 @@
-# 多图关联Multiple Chart Association
+# Multiple Chart Association
 
-在图表配置的**高级**标签页中，可以配置多图表之间的联动查询。
+Under the **Advanced** tab of chart configuration, you can configure multi-chart association to realize associated query between charts.
 
-**前置条件**
+**Prerequisites**
 
-创建报表，至少添加两个可以支持多图关联的图表，并分别完成数据配置。
+At least 2 reports that support multi-chart association have been created (with data configuration completed).
 
-下面以柱图和饼图为例，说明如何配置多图关联。
+Taking the bar chart and pie chart as example, instructions on configuring multi-chart association are as follows.
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
+1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-2. 双击柱图图标![bar_icon](E:/Envision/3%20BigData/1%20Data%20Report/2%20%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/BI&Report/ZH/../media/bar_icon.png)，柱图的图例会自动显示在报表展示区。在数据标签页，完成数据配置。
+2. Double-click the **Bar chart** icon ![bar_icon](../media/bar_icon.png). The bar chart template is added to the report display section. Under the **Data** tab, complete the data configuration for the bar chart.
 
-3. 双击饼图图标![pie_icon](../media/pie_icon.png)，饼图的图例会自动显示在报表展示区。在数据标签页，完成数据配置。
+3. Double-click the **Pie chart** icon ![pie_icon](../media/pie_icon.png). The pie chart template is added to the report display section. Under the **Data** tab, complete the data configuration for the pie chart.
 
-4. 选中柱图，在**高级**标签页中，选择需要**被关联**的目标图表。以饼图为例，在柱图的高级标签页中，选中饼图的维度字段。此时，即完成高级关联。
+4. Select the bar chart, click the **Advanced** tab, and select the measure data field of the pie chart to be associated.
 
    ![multi_correlation](../media/multi_correlation.png)
 
 
 
-> 请注意，配置多图关联时，主动发起关联的图表（柱图）的维度字段将作为源字段，与被关联的图表（饼图）的维度字段进行关联，此时源字段的值将作为过滤条件，过滤被关联图表中维度值等于过滤值的数据。在本例中，当在柱图中选择某个维度值时，该维度的值将作为过滤条件，筛选被关联图表中等于相同维度值的数据。
+> Note that when configuring multi-chart association, the measure data field of the chart that initiates the association will be the source field. The value of the source field will be used as filtering condition to query data in the chart that is associated. In this example, when selecting a measure value in the bar chart, the value will be used to filter data in the pie chart. The value in the pie chart that meets the filtering condition will be displayed.
 
-**效果说明**
+**Results**
 
-1. 以柱图为主动关联图表，源字段为维度，以饼图为被关联图表，被关联字段为月份，完成数据及多图关联配置。
+1. The bar chart initiates the association, and the measure is the source field. The pie chart is the associated chart, and the associated field is month. The multi-chart association is configured.
 
-  ![multi_correlation_before](../media/multi_correlation_before.png)
+    ![multi_correlation_before](../media/multi_correlation_before.png)
 
-2. 在柱图中，点击2017-12，饼图中将自动查询出2017-12的数据，此时即实现多图联动查询的效果。
+2. In the bar chart, select 2017-12. The pie chart will display data for the month of 2017-12. See the following sample.
 
-  ![multi_correlation_after](../media/multi_correlation_after.png)
+    ![multi_correlation_after](../media/multi_correlation_after.png)
