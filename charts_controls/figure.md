@@ -1,31 +1,29 @@
-# 图片
+# Image
 
-制作报表时，若需要上传本地图片，或者引用网络的图片，可以使用图片控件。
+When creating reports, you can use the image control to upload local pictures or use pictures from the Internet. 
 
-下面介绍图片控件的使用方法。
+Take the following steps to configure the image control.
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
+1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-2. 在控制标签下双击**图片**图标![pic_icon](../media/pic_icon.png)，图片的图例会自动显示在报表展示区。
+2. Double-click the **Image** icon ![pic_icon](../media/pic_icon.png). The image control is added to the report display section.
 
-3. 在数据标签中，选择上传本地图片，或输入链接地址。
+3. Under the **Data** tab, if you choose to upload a local picture, the supported formats are **jpg, jpeg, gif, png, bmp**.
 
-4. 当选择上传**本地图片**时，点击**选择文件**，在弹窗中上传本地图片文件。图片文件支持**jpg、jpeg、gif、png、bmp**的格式。
+4. If you choose to use an online picture, enter the URL of it. Take http://i.imgur.com/m4DQg3w.jpg as example.
 
-5. 当选择**链接地址**时，输入图片的链接地址，以http://i.imgur.com/m4DQg3w.jpg为例。
+5. Click the Update button, the image control will be refreshed.
 
-6. 点击**更新**，系统自动更新内容。
+6. After data configuration is completed, you can configure the layout of the image control under the **Style** tab, including **Common** and **Design** configuration. The style settings take effect in real time.
 
-   > 请注意，配置数据时，只有点击**更新**，数据配置才会生效。
+   - Checkbox for displaying title
 
-7. 完成数据配置后，可以选择样式标签，设置图片的样式。包括通用及设计两类。样式设置实时生效，具体说明如下:
+   - Checkbox for displaying border 
 
-- 是否显示标题
-- 是否显示边框
-- 图片的展示方式，包括填充，适应，拉伸，居中，居左
+   - Display of the image, such as fill, adapt, stretch, center, and left.
 
-![pic_legend](../media/pic_legend.png)
+     ![pic_legend](../media/pic_legend.png)
 
-8. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
-9. 配置完成后，点击工具栏中的**保存**。
+7. To delete the image control, select it first, click the ![chart_spread](../media/chart_spread.png)icon in the upper right corner of the control, and select **Delete**. 
 
+8. After all configuration is completed, click **Save** in the tool bar to save the image control.

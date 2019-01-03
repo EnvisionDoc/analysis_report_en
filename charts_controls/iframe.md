@@ -1,26 +1,26 @@
 # iFrame
 
-制作报表时，若需要插入外部的网页，用来实时查询网络数据或浏览网页，可以使用iFrame控件。
+When creating reports, you can use the iFrame control to insert external pages for querying data or browsing web pages at real time.
 
-下面介绍iFrame的使用方法。
+Take the following steps to configure the iFrame control.
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
+1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-2. 在控制标签下双击**iFrame**图标![iFrame_icon](../media/iFrame_icon.png)，iFrame的图例会自动显示在报表展示区。
+2. Double-click the **iFrame** icon ![iFrame_icon](../media/iFrame_icon.png). The iFrame control is added to the report display section.
 
-3. 在数据标签中，输入链接地址，以https://www.baidu.com为例。
+3. Under the **Data** tab, enter the URL of the external page. Take https://www.baidu.com for example.
 
-4. 点击**更新**，系统自动更新内容。
+4. Click the **Update** button, and the iFrame control will be refreshed to display the external page.
 
-   > 请注意，配置数据时，只有点击**更新**，数据配置才会生效。
-5. 完成数据配置后，可以选择样式标签，设置iFrame的样式。样式设置实时生效，具体说明如下:
+5. Under the **Style** tab, configure the layout of the iFrame control.
 
-- 是否显示标题
+   - Checkbox for displaying title
 
-- 是否显示边框
+   - Checkbox for displaying border
 
-  ![iFrame_legend](../media/iFrame_legend.png)
+     ![iFrame_legend](../media/iFrame_legend.png)
 
-6. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
-7. 配置完成后，点击工具栏中的**保存**。
+6. To delete the iFrame, select it first, click the ![chart_spread](../media/chart_spread.png)icon in the upper right corner of the iFrame control, and select **Delete**. 
+
+7. After all configuration is completed, click **Save** in the tool bar to save the iFrame control.
 

@@ -1,18 +1,15 @@
-# 文本框
+# Text Box
 
-文本框可用于一段固定文本的输入，用于制作报表的标题等内容。
+Text box can be used to enter a fixed paragraph of text, for making the title of a report, etc. 
 
-下面介绍文本框的使用方式。
+Take the following steps to configure the text box control.
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
-2. 在"控件标签下"双击文本框图标![text_icon](../media/text_icon.png)，文本框的图例会自动显示在报表展示区。
-3. 在文本框中输入固定文本。
-4. 在样式标签，设置文本框样式。样式设置实时生效，具体说明如下：
+1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
+2. Double-click the **Text box** icon ![text_icon](../media/text_icon.png) under the **Controls** tab. The text editor is added to the report display section.
+3. Enter text in the text editor.
+4. Under the **Style** tab, configure the layout of the text box. The style settings take effect in real time. 
+   - Checkbox for displaying title
+   - Checkbox for displaying border![text_legend](../media/text_legend.png)
+5. To delete the text box, select it first, click the ![chart_spread](../media/chart_spread.png)icon in the upper right corner of the text box, and select **Delete**. 
+6. After all configuration is completed, click **Save** in the tool bar to save the text box. 
 
-- 是否显示标题
-- 是否显示边框
-
-![text_legend](../media/text_legend.png)
-
-5. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](/../media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
-6. 配置完成后，点击工具栏中的**保存**。

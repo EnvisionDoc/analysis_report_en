@@ -28,25 +28,25 @@ Before creating a report, you must have datasets created. Take the following ste
 
 8. After data configuration is completed, you can set the layout of the bar chart under the **Style** tab, including **Common** and **Design** configuration. The style settings take effect in real time.
 
-  - Checkbox for displaying title
+   - Checkbox for displaying title
 
-  - Checkbox for displaying border 
+   - Checkbox for displaying border 
 
-  - Style settings for the bar chart, including horizontal, stack, percentage stack, double Y axis, and zoom. 
+   - Style settings for the bar chart, including horizontal, stack, percentage stack, double Y axis, and zoom. 
 
-    **Note**: Only if there are more than 2 measures, the settings of stack, percentage stack, and double Y axis are supported. If there is just 1 measure, horizontal display is supported only.
+     **Note**: Only if there are more than 2 measures, the settings of stack, percentage stack, and double Y axis are supported. If there is just 1 measure, horizontal display is supported only.
 
-  - Titles for the horizontal axis and vertical axis, supporting Chinese, English, and special characters with a limit of 50.
+   - Titles for the horizontal axis and vertical axis, supporting Chinese, English, and special characters with a limit of 50.
 
-  - Checkbox for displaying data label
+   - Checkbox for displaying data label
 
-  - Checkbox for displaying tooltip
+   - Checkbox for displaying tooltip
 
-  - Settings for the position of legend (Top, Bottom, Left, or Right). 
+   - Setting for the position of legend (Top, Bottom, Left, or Right). 
 
-    ![bar_style](../media/bar_style.png)
+     ![bar_style](../media/bar_style.png)
 
-9. After style configuration is completed, you can set multi-chart association under the **Style** tab.
+9. After style configuration is completed, you can set multi-chart association under the **Advanced** tab.
 
 10. In the report display section, you can configure the display effect of dimension and measures by clicking on the legend, including the title, chart type, axis, content, and color.
 

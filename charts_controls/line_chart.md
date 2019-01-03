@@ -46,7 +46,7 @@ Before creating a report, you must have datasets created. Take the following ste
 
      ![line_style](../media/line_style.png)
 
-9. After style configuration is completed, you can set multi-chart association under the **Style** tab.
+9. After style configuration is completed, you can set multi-chart association under the **Advanced** tab.
 
 10. In the report display section, you can configure the display effect of dimension and measures by clicking on the legend, including the title, chart type, axis, content, and color.
 

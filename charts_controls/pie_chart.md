@@ -16,7 +16,7 @@ Before creating a report, you must have datasets created. Take the following ste
 
 3. Under the **Data** tab, select a dataset to be used from the drop-down list of the **Dataset** field.
 
-4. From the drop-down list of the **Row (Dimension)** and **Column (Measure)** fields, select the corresponding data fields to be used for the pie chart.
+4. From the drop-down list of the **Sector Label (Dimension)** and **Sector Angle (Measure)** fields, select the corresponding data fields to be used for the pie chart.
 
 5. Click the **Update** button. The pie chart will be refreshed to display the selected data.
 
@@ -46,7 +46,7 @@ Before creating a report, you must have datasets created. Take the following ste
 
      ![pie_style](../media/pie_style.png)
 
-9. After style configuration is completed, you can set multi-chart association under the **Style** tab.
+9. After style configuration is completed, you can set multi-chart association under the **Advanced** tab.
 
 10. In the report display section, click on the legend to set whether to display the measure values.
 

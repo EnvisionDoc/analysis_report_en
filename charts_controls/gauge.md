@@ -1,55 +1,65 @@
-# 仪表盘
+# Gauge
 
-仪表盘可清晰地展示出某个指标值所在的范围，可以直观的看出数据是否在可控范围，或者任务当前的完成程度。
+Gauge can clearly show the range of a certain index value and intuitively indicate whether the value is in the controllable range or the current completion progress of a task.
 
-仪表盘由指针角度和表盘区间组成。指针角度是由度量数据及设置区间决定的。
+Gauge consists of a pointer angle and board. The pointer angle is specified by the measure data and the setting interval.
 
-**仪表盘需要选择0个维度，1个度量。**
+## Configuration
 
-创建报表之前，需要先准备数据集。假设已经完成数据集创建，下面介绍仪表盘的使用方法。
+Gauge supports 0 dimension and 1 measure.
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
-2. 双击**仪表盘**图标![gauge_icon](../media/gauge_icon.png)，仪表盘的图例会自动显示在报表展示区。
-3. 在数据标签中，点击**选择数据集**，在下拉列表中选择目标数据集。
-4. 点击**选择字段**，下拉列表中将展示所选数据集的全部维度及度量字段。
-5. 在下拉列表中，选择指针角度（度量）字段。
+Before creating a report, you must have datasets created. Take the following steps to configure settings for the gauge.
 
-6. 点击**更新**，系统自动更新图表。
+1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-   > 请注意，配置图表的数据时，只有点击**更新**，数据配置才会生效。
+2. Double-click the **Gauge** icon ![gauge_icon](../media/gauge_icon.png). The gauge template is added to the report display section.
 
-7. 若需要设置过滤器，请参考**设置过滤器**使用说明。
+3. Under the **Data** tab, select a dataset to be used from the drop-down list of the **Dataset** field.
 
-8. 若需要设置自动刷新，请参考**自动刷新**使用说明。
+4. From the drop-down list of the **Pointer Angle** field, select the measure data field to be used for the gauge.
 
-![gauge_data](../media/gauge_data.png)
+5. Click the **Update** button. The gauge will be refreshed to display the selected data.
 
-9. 完成数据配置后，必须选择样式标签，设置仪表盘的样式。包括通用及设计两类。样式设置实时生效，具体说明如下:
+   **Note**: The data configuration will take effect only after you click the **Update** button.
 
-- 是否显示标题
-- 是否显示边框
-- 是否显示刻度线
-- 是否显示图例
-- 设置起始角度，结束角度。默认起始角度为180°，结束角度为0°
-- 设置区间
+6. If you want to set a data filter, see **How to set data filter for a report** in the [FAQ section](../report_faq).
 
-![gauge_style](../media/gauge_style.png)
+7. To set automatic data refresh, enter an interval value in the **Refresh** field. The minimum value supported is 5 seconds.
 
-10. 区间的参数设置分为手工输入及选择维表两种方式。以最常见的手工输入为例，介绍如何设置区间。当选择维表的方式时，需要提前准备好数据集，维表中的度量字段代表每个区间的起始值和结束值。
+   ![gauge_data](../media/gauge_data.png)
 
-- 点击**添加区间**，自动新增一个区间
-- 填写区间名，选填，支持中文、英文及特殊字符，不超过50个字符
-- 填写起始值及结束值，仅支持数字，且起始值必须小于结束值
-- 点击区间右侧的**减号**，删除所选区间
-- 点击区间右侧的**颜色块**，可以自定义区间颜色
-- 区间设置完成后，点击**确定**
+8. After data configuration is completed, you can set the layout of the gauge under the **Style** tab, including **Common** and **Design** configuration. The style settings take effect in real time.
 
-![gauge_range](../media/gauge_range.png)
+   - Checkbox for displaying title
 
-11. 仪表盘不支持多图关联。
+   - Checkbox for displaying border
 
-![gauge_legend](../media/gauge_legend.png)
+   -  Checkbox for displaying the tick marks
 
-12. 若需要查看图表对应的数据，并将数据下载到本地，或删除所选图表。需要先选中图表，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)"。在下拉菜单中选择**查看数据**并**下载**到本地。或者选择**删除**，删除所选图表。
+   - Checkbox for displaying the legend
 
-13. 配置完成后，点击工具栏中的**保存**。
+   - Setting of the start angle and end angle (180° and 0° by default)
+
+   - Configuring data value sections
+
+     ![gauge_style](../media/gauge_style.png)
+
+9. There are 2 options for configuring data value sections, static and dynamic. For the dynamic option, you must have datasets created. The measure fields represent the start and end values of a section. For the static option, take the following steps to configure data value sections:
+
+   - Click **Add Section**.
+
+   - Enter the section name (supporting Chinese, English, and special characters with a limit of 50)
+
+   - Enter the start and end value of the section. The start value must be less than the end value.
+
+   - Select a color for the section.
+
+   - Click **OK**.
+
+     ![gauge_range](../media/gauge_range.png)
+
+10. Gauge does not support multi-chart association.
+
+11. To view the chart data or download data, click the![chart_spread](../media/chart_spread.png)icon in the upper right corner of the chart and click **View data** > **Download**. Optionally, click **Delete** to delete the chart.
+
+12. After all configuration is completed, click **Save** in the tool bar to save the chart.

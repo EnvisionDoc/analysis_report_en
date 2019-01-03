@@ -1,56 +1,50 @@
-# 交叉表
+# Cross Table
 
-交叉表由行和列构成，可以用来显示表中某个字段的汇总值，并将它们分组。
+Cross table consists of rows and columns, and it can be used to display and group the aggregated values of a field in a table.
 
-**交叉表需要选择0个或多个维度，0个或多个度量，且至少选择1个**。特别地，交叉表不支持多图关联的高级配置。
+## Configuration
 
-创建报表之前，需要先准备数据集。假设已经完成数据集创建，下面介绍交叉表的使用方法。
+Cross table supports 0 or multiple dimensions and 0 or multiple measures. Cross table does not support multi-chart association.
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
+Before creating a report, you must have datasets created. Take the following steps to configure settings for the cross table.
 
-2. 双击**交叉表**图标![crosstable_icon](../media/crosstable_icon.png)，交叉表的图例会自动显示在报表展示区。
+1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-3. 在数据标签中，点击**选择数据集**，在下拉列表中选择目标数据集。
+2. Double-click the **Cross Table** icon ![crosstable_icon](../media/crosstable_icon.png). The cross table template is added to the report display section.
 
-4. 点击**选择字段**，下拉列表中将展示所选数据集的全部维度及度量字段。
+3. Under the **Data** tab, select a dataset to be used from the drop-down list of the **Dataset** field.
 
-5. 在下拉列表中，选择行（维度）及列（度量）字段。特别地，点击度量字段右侧的小眼睛，将在交叉表中隐藏所选度量字段。
+4. From the drop-down list of the **Row (Dimension)** and **Column (Measure)** fields, select the corresponding data fields to be used for the cross table. For the Measure filed, click the eye icon to hide the selected measure field. 
 
-6. 设置交叉表分页，包括50、100、200、500。
+5. For the **Page Set** field, select the page size for the cross table. Available options are 50, 100, 200, and 500.
 
-7. 设置是否默认不加载数据。若选中默认不加载数据，点击更新按钮时，图表不加载数据。只有配置了非空的条件查询，点击查询，图表才会加载数据。若未选中，则点击更新按钮时，自动加载数据。
+6. If **Default not load data** is selected, no data will be loaded when you click the **Update** button. Only if non-empty query condition is configured, you can click **Query** to load data for the cross table. If **Default not load data** is not selected, the cross table will load date when you click the **Update** button. 
 
-8. 点击**更新**，系统自动更新图表。
+7. Click the **Update** button. The cross table will be refreshed to display the selected data.
 
-   > 请注意，配置图表的数据时，只有点击**更新**，数据配置才会生效。
+   **Note**: The data configuration will take effect only after you click the **Update** button.
 
-9. 若需要设置过滤器，请参考**设置过滤器**使用说明。
+8. If you want to set a data filter, see **How to set data filter for a report** in the [FAQ section](../report_faq).
 
-10. 若需要设置自动刷新，请参考**自动刷新**使用说明。
+9. To set automatic data refresh, enter an interval value in the **Refresh** field. The minimum value supported is 5 seconds.
 
-![crosstable_data](../media/crosstable_data.png)
+   ![crosstable_data](../media/crosstable_data.png)
 
-11. 完成数据配置后，可以选择样式标签，设置交叉表的样式。包括通用及设计两类。样式设置实时生效，具体说明如下:
+10. After data configuration is completed, you can set the layout of the cross table under the **Style** tab, including **Common** and **Design** configuration. The style settings take effect in real time.
 
-- 是否显示标题
-- 是否显示边框
-- 是否显示序号
+    - Checkbox for displaying title
 
-![cross_style](../media/cross_style.png)
+    - Checkbox for displaying border 
 
-12. 交叉表不支持配置多图关联。
+    - Checkbox for displaying serial number
 
-13. 在报表展示区，选择交叉表的图例，可以排序、设置显示的度量字段，调整列宽，以及设置分页。具体说明如下：
+      ![cross_style](../media/cross_style.png)
 
-- 排序，点击列头字段右侧的排序符号，进行升序/降序排列
+11. Cross table does not support multi-chart association.
 
-- 设置显示的度来字段，点击标题栏右上角的小齿轮，在弹框中选择要显示的度量字段
+12. In the report display section, you can set the sequencing order of fields, rows and columns to be displayed, column width, and page size of the table.
 
-- 调整列宽，鼠标悬浮于列头的列分割线位置，可以向左或右拖拽，调整列宽
+13. To view the chart data or download data, click the![chart_spread](../media/chart_spread.png)icon in the upper right corner of the chart and click **View data** > **Download**. Optionally, click **Delete** to delete the chart.
 
-- 设置分页，在交叉表右下角分页器位置，设置分页
+14. After all configuration is completed, click **Save** in the tool bar to save the chart.
 
-  ![crosstable_legend](../media/crosstable_legend.png)
-
-14. 若需要查看图表对应的数据，并将数据下载到本地，或删除所选图表。需要先选中图表，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)"。在下拉菜单中选择**查看数据**并**下载**到本地。或者选择**删除**，删除所选图表。
-15. 配置完成后，点击工具栏中的**保存**。

@@ -1,43 +1,45 @@
-# 指标块
+# Indicating Block
 
-指标块由标签及指标组成，用于展示指标类数据的变化，以辅助决策制定。
+Indicating block consists of labels and indicators. It is used to show the changes of index data, which can assist decision making.
 
-**指标块需要选择0个或1个维度，1个或多个度量**。特别地，当选择0个维度时，不支持多图关联的高级配置；当选择1个维度时，支持多图关联的高级配置。
+## Configuration
 
-创建报表之前，需要先准备数据集。假设已经完成数据集创建，下面介绍指标块的使用方法。
+Indicating block supports 0 or 1 dimension and 1 or multiple measures. When no dimension is selected, it does not support multi-chart association. When 1 dimension is selected, it supports multi-chart association. 
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
-2. 双击**指标块**图标![index_icon](../media/index_icon.png)，指标块的图例会自动显示在报表展示区。
-3. 在数据标签中，点击**选择数据集**，在下拉列表中选择目标数据集。
-4. 点击**选择字段**，下拉列表中将展示所选数据集的全部维度及度量字段。
-5. 在下拉列表中，选择标签（维度）及指标（度量）字段。
+Before creating a report, you must have datasets created. Take the following steps to configure settings for the indicating block.
 
-6. 点击**更新**，系统自动更新图表。
+1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-   > 请注意，配置图表的数据时，只有点击**更新**，数据配置才会生效。
+2. Double-click the **Indicating block** icon ![index_icon](../media/index_icon.png). The indicating block template is added to the report display section.
 
-7. 若需要设置过滤器，请参考**设置过滤器**使用说明。
+3. Under the **Data** tab, select a dataset to be used from the drop-down list of the **Dataset** field.
 
-8. 若需要设置自动刷新，请参考**自动刷新**使用说明。
+4. From the drop-down list of the **Sector Label (Dimension)** and **Sector Angle (Measure)** fields, select the corresponding data fields to be used for the indicating block.
 
-![index_data](../media/index_data.png)
+5. Click the **Update** button. The indicating block will be refreshed to display the selected data.
 
-9. 完成数据配置后，可以选择样式标签，设置指标块的样式。包括通用及设计两类。样式设置实时生效，具体说明如下:
+   **Note**: The data configuration will take effect only after you click the **Update** button.
 
-- 是否显示标题
+6. If you want to set a data filter, see **How to set data filter for a report** in the [FAQ section](../report_faq).
 
-- 是否显示边框
+7. To set automatic data refresh, enter an interval value in the **Refresh** field. The minimum value supported is 5 seconds.
 
-- 设置排列方式
+   ![index_data](../media/index_data.png)
 
-- 设置每行显示数量，默认为每行4个
+8. After data configuration is completed, you can set the layout of the indicating block under the **Style** tab, including **Common** and **Design** configuration. The style settings take effect in real time.
 
-  ![index_style](../media/index_style.png)
+   - Checkbox for displaying title
 
+   - Checkbox for displaying border
 
-10. 完成样式配置后，可以选择高级标签，配置多图关联。当选择0个维度时，不支持多图关联的高级配置；当选择1个维度时，支持多图关联的高级配置。具体使用方法，请参考**多图关联**的使用说明。
+   - Select the layout style
 
-![index_legend](../media/index_legend.png)
+   - Set the number of blocks of each row (4 by default)
 
-11. 若需要查看图表对应的数据，并将数据下载到本地，或删除所选图表。需要先选中图表，然后点击标题栏右上角的![chart_spread](/../media/chart_spread.png)"。在下拉菜单中选择**查看数据**并**下载**到本地。或者选择**删除**，删除所选图表。
-12. 配置完成后，点击工具栏中的**保存**。
+     ![index_style](../media/index_style.png)
+
+9. After style configuration is completed, you can set multi-chart association under the **Advanced** tab. Note that when no dimension is selected, indicating block does not support multi-chart association. When 1 dimension is selected, it supports multi-chart association. 
+
+10. To view the chart data or download data, click the![chart_spread](../media/chart_spread.png)icon in the upper right corner of the chart and click **View data** > **Download**. Optionally, click **Delete** to delete the chart.
+
+11. After all configuration is completed, click **Save** in the tool bar to save the chart.
