@@ -23,4 +23,6 @@ The basic objects in a reporting platform include data sources, datasets and rep
 
 - **Report**: Your report contents can be customized in a WYSIWYG way by dragging the chart to adjust the layout according to business needs. A report may contain a variety of analysis charts and controls. Filtering, multi-chart association, and other advanced operations are also supported.
 
-	![101](media/101.png)
+	.. image:: media/101.png
+
+<!--end-->

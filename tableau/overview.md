@@ -39,15 +39,23 @@ You can visit the [Tableau website](http://www.tableau.com/) for more detailed i
 ## How does the Tableau Server service work?
 The following picture describes how Tableau Serve services on EnOS collaborate with business applications, data sources, Tableau Desktop and Tableau Server:
 
-![image](media/tableau_overview_en.png)
+.. image:: media/tableau_overview_en.png
+   :width: 800px
 
 1. Data analysts prepare data sources.
+
 2. Data analysts connect data sources, develop worksheets, and publish them to Tableau Server on EnOS. Please refer to [how to connect data sources](https://www.tableau.com/learn).
+
 3. Customer visits the business application embedded Tableau worksheets, the application will send a request to Tableau Server service.
+
 4. The Tableau Server service carries the necessary information sent by the application to get the application authenticated in EnOS authentication service.
+
 5. The EnOS authentication service returns the authentication result.
+
 6. Tableau Server service completes application certification in the backend, then ask for Tableau Server's URL.
+
 7. Tableau Server returns the available Tableau URL to the Tableau Server service.
+
 8. Tableau Server service returns the available Tableau URL to the application, the worksheet is displayed in the application.
 
 ## Related Information

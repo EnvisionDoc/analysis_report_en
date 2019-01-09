@@ -10,7 +10,7 @@ On EnOS<sup>TM</sup> IoT platform, a Report DB is created by default for organiz
 
 2. Create target tables.
 
-   Select **Data Explorer** from the left navigation panel and click the **New note** button to create target tables. For details, see [Creating a Hive Table](../data_explorer/creating_hivetable). If target tables already exist, you can skip this step.
+   Select **Data Explorer** from the left navigation panel and click the **New note** button to create target tables. For details, see [Creating a Hive Table](https://docs.envisioniot.com/docs/data-explorer/en/latest/creating_hivetable.html). If target tables already exist, you can skip this step.
 
 3. Create data integration tasks.
 
@@ -34,7 +34,7 @@ On EnOS<sup>TM</sup> IoT platform, a Report DB is created by default for organiz
 
 8. Synchronize table data to the Report DB.
 
-   Select **Data Integration** from the left navigation panel and click **New data integration task** and complete the configuration of the task flow. Select **HIVE** as the data source type and **REPORTDB** as the target source type. Click the **Pre-run** button to test the task flow, then check the task running status in **Task Monitor**. 
+   Select **Data Integration** from the left navigation panel and click **New data integration task** and complete the configuration of the task flow. Select **HIVE** as the data source type and **REPORTDB** as the target source type. Click the **Pre-run** button to test the task flow, then check the task running status in **Task Monitor**.
 
 ## Follow-up Operations
 

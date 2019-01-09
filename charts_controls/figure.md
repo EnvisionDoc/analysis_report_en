@@ -1,12 +1,12 @@
 # Image
 
-When creating reports, you can use the image control to upload local pictures or use pictures from the Internet. 
+When creating reports, you can use the image control to upload local pictures or use pictures from the Internet.
 
 Take the following steps to configure the image control.
 
 1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-2. Double-click the **Image** icon ![pic_icon](../media/pic_icon.png). The image control is added to the report display section.
+2. Double-click the **Image** icon |pic_icon|. The image control is added to the report display section.
 
 3. Under the **Data** tab, if you choose to upload a local picture, the supported formats are **jpg, jpeg, gif, png, bmp**.
 
@@ -18,12 +18,19 @@ Take the following steps to configure the image control.
 
    - Checkbox for displaying title
 
-   - Checkbox for displaying border 
+   - Checkbox for displaying border
 
    - Display of the image, such as fill, adapt, stretch, center, and left.
 
-     ![pic_legend](../media/pic_legend.png)
+     .. image:: ../media/pic_legend.png
 
-7. To delete the image control, select it first, click the ![chart_spread](../media/chart_spread.png)icon in the upper right corner of the control, and select **Delete**. 
+7. To delete the image control, select it first, click the |chart_spread| icon in the upper right corner of the control, and select **Delete**.
 
 8. After all configuration is completed, click **Save** in the tool bar to save the image control.
+
+.. |pic_icon| image:: ../media/pic_icon.png
+
+.. |chart_spread| image:: ../media/chart_spread.png
+
+
+<!--end-->

@@ -6,7 +6,8 @@ Users in an organization share a Report DB, that is, data of the organization ar
 
 Find the dataset to be copied, expand the operation menu, and select **Copy**. You can then edit the copy of the dataset under the **Mine** tab. See the following screen capture.
 
-![dataset_list](media/dataset_list.png)
+.. image:: media/dataset_list.png
+   :width: 700px
 
 ## Publishing a report public to the organization
 
@@ -14,13 +15,19 @@ When report editing is completed, you can publish the report public to the whole
 
 If **Organization public** is selected, the report is visible to all users in the organization. If **Only the user** is selected, the published report is visible to the report owner only.
 
-To view a published report, click the report name in the report list. To view reports that are public in the organization, click the **All** tab on the Report page and then click the report name. 
+To view a published report, click the report name in the report list. To view reports that are public in the organization, click the **All** tab on the Report page and then click the report name.
 
 You have 2 options to publish a report:
 
-- On the report list page, expand the ![dataset_menu_extend](media/dataset_menu_extend.png) icon for a report draft and select **Publish**. 
+- On the report list page, expand the |dataset_menu_extend| icon for a report draft and select **Publish**.
+
 - On the report editing page, click the **Publish** button on the tool bar.
 
 See the following screen capture.
 
-![report_publish](media/report_publish.png)
+.. image:: media/report_publish.png
+   :width: 800px
+
+.. |dataset_menu_extend| image:: media/dataset_menu_extend.png
+
+<!--end-->

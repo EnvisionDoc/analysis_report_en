@@ -12,7 +12,8 @@ Log in the EnOS Console, select **BI & Report > Data** from the left navigation,
 
 ### Single Table Model
 
-1. On the **Data Sources** page, select a data source table from the list on the right. Then, click the ![创建数据集](media/new_dataset.png)icon from the operation panel to create dataset.
+1. On the **Data Sources** page, select a data source table from the list on the right. Then, click the |new_dataset| icon from the operation panel to create dataset.
+
 2. Click the **Datasets** tab and view information about the created dataset under the **Mine** tab.
 
 ### SQL Model
@@ -20,9 +21,13 @@ Log in the EnOS Console, select **BI & Report > Data** from the left navigation,
 By SQL model, you can create datasets based on multiple data source tables.
 
 1. On the **Data Sources** page, click **Switch to SQL**.
+
 2. In the editor, define the `Select` SQL statements.
+
 3. Click **Syntax check** to verify the syntax validity of the SQL query statements.
+
 4. Enter the dataset name and click **Create dataset** to complete creating the dataset.
+
 5. Click the **Datasets** tab and view information about the created dataset under the **Mine** tab.
 
 ## Results
@@ -36,3 +41,7 @@ You can create a report based on the created datasets. For details, see [Creatin
 ## Related Information
 
 - [Managing Datasets](managing_dataset)
+
+.. |new_dataset| image:: media/new_dataset.png
+
+<!--end-->

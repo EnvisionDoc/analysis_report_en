@@ -10,29 +10,29 @@ Before creating a report, you must have datasets created. Take the following ste
 
 1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-2. Double-click the **Highlight Table** icon ![highlighttable_icon](../media/highlighttable_icon.png). The highlight table template is added to the report display section.
+2. Double-click the **Highlight Table** icon |highlighttable_icon|. The highlight table template is added to the report display section.
 
 3. Under the **Data** tab, select a dataset to be used from the drop-down list of the **Dataset** field.
 
 4. From the drop-down list of the **Row (Dimension)**, **Column (Dimension)**, and **Value (Measure)** fields, select the corresponding data fields to be used for the highlight table.
 
-5. If **Default not load data** is selected, no data will be loaded when you click the **Update** button. Only if non-empty query condition is configured, you can click **Query** to load data for the cross table. If **Default not load data** is not selected, the cross table will load date when you click the **Update** button. 
+5. If **Default not load data** is selected, no data will be loaded when you click the **Update** button. Only if non-empty query condition is configured, you can click **Query** to load data for the cross table. If **Default not load data** is not selected, the cross table will load date when you click the **Update** button.
 
 6. Click the **Update** button. The highlight table will be refreshed to display the selected data.
 
-   **Note**: The data configuration will take effect only after you click the **Update** button.
+   .. note:: The data configuration will take effect only after you click the **Update** button.
 
-7. If you want to set a data filter, see **How to set data filter for a report** in the [FAQ section](../report_faq).
+7. If you want to set a data filter, see [Setting Filters](filter).
 
 8. To set automatic data refresh, enter an interval value in the **Refresh** field. The minimum value supported is 5 seconds.
 
-   ![highlighttable_data](../media/highlighttable_data.png)
+   .. image:: ../media/highlighttable_data.png
 
 9. After data configuration is completed, you can set the layout of the highlight table under the **Style** tab, including **Common** and **Design** configuration. The style settings take effect in real time.
 
    - Checkbox for displaying title
 
-   - Checkbox for displaying border 
+   - Checkbox for displaying border
 
    - Checkbox for displaying number
 
@@ -44,9 +44,9 @@ Before creating a report, you must have datasets created. Take the following ste
 
    - Setting of sections.
 
-     ![highlighttable_style](../media/highlighttable_style.png)
+     .. image:: ../media/highlighttable_style.png
 
-10. For the configuration of sections, setting different interval values and choosing different colors to highlight the size of the measure data. When the measure is in an interval, the background color of the cell will be displayed as the corresponding color. 
+10. For the configuration of sections, setting different interval values and choosing different colors to highlight the size of the measure data. When the measure is in an interval, the background color of the cell will be displayed as the corresponding color.
 
     - Enter the section name (supporting Chinese, English, and special characters with a limit of 50).
 
@@ -58,10 +58,19 @@ Before creating a report, you must have datasets created. Take the following ste
 
     - Click **OK**.
 
-      ![highlighttable_range](../media/highlighttable_range.png)
+      .. image:: ../media/highlighttable_range.png
+         :width: 300px
 
 11. Highlight table does not support multi-chart association.
 
-12. To view the chart data or download data, click the![chart_spread](../media/chart_spread.png)icon in the upper right corner of the chart and click **View data** > **Download**. Optionally, click **Delete** to delete the chart.
+12. To view the chart data or download data, click the |chart_spread| icon in the upper right corner of the chart and click **View data** > **Download**. Optionally, click **Delete** to delete the chart.
+
+
 
 13. After all configuration is completed, click **Save** in the tool bar to save the chart.
+
+.. |highlighttable_icon| image:: ../media/highlighttable_icon.png
+
+.. |chart_spread| image:: ../media/chart_spread.png
+
+<!--end-->

@@ -13,7 +13,8 @@ To successfully use the sample project, you need the following:
 
 This example simulates a Web application, sending a request to the back-end service by clicking a button on a web page. This allows the back-end service to send a request to the Tableau Server service to obtain the URL of the tableau worksheet. Finally, it displays the signed-in tableau worksheet page in an `iframe` at the front end.
 
-2. Sample project framework
+**Sample project framework**
+
 -  This sample project is developed using `JDK 1.8` and `Spring Boot 2.0`.
 -  The back-end calls the API that obtains the tableau URL through the application key, application secret, application account registered in the tableau server service, and the worksheet url in Tableau.
 -  The front-end uses `jQuery` to call the interface in the back-end to obtain the tableau worksheet URL and display it in `iframe`.
@@ -21,8 +22,17 @@ This example simulates a Web application, sending a request to the back-end serv
 ## Procedure
 
 1. Download the sample application code.
+
 2. Load the Maven project after extracting the sample code.
+
 3. Run the `TableauPluginDemoApplication` class. Browse to `localhost: 8080` in the browser to enter the following page.
-  ![image](media/sample_01.png)
+
+  .. image:: media/sample_01.png
+     :width: 700px
+
 4. Click  **Report**. The application will load the tableau worksheet page in the form of `iframe`.
-  ![image](media/sample_02.png)
+
+  .. image:: media/sample_02.png
+     :width: 700px
+
+<!--end-->

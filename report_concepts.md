@@ -2,7 +2,8 @@
 
 The key objects in a reporting platform include data sources, datasets, and reports, as described below.
 
-![](media/report_concepts.png)
+.. image:: media/report_concepts.png
+   :width: 650px
 
 ## Data Source
 

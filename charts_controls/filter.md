@@ -1,51 +1,63 @@
-# 设置过滤器
+# Setting Filters
 
-若图表的数据量较大，可以设置过滤器，将需要的某一类或某几类数据从数据中过滤出来。过滤字段为图表所选数据集中的全部维度字段，且支持多选。
+If there is a large amount of data, you can set filter conditions to filter out a specific or several kinds of data from the measure fields of the selected dataset. Multiple measures can be selected for filtering data.
 
-过滤器可以过滤字符类或数值类的数据，不能过滤日期类的数据。若需要过滤日期类数据，请配置条件查询->日期查询控件。
+The filter supports data of string or numeric type but does not support data of date type. To filter data of date type, you can use the **Query condition** control widget and select the "Date selection" control type.
 
-下面以柱图为例，说明过滤器的使用方式。
+The  following section introduces how to set filters using bar chart as example:
 
-**字符类**
+## String data type
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
+1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-2. 双击柱图图标![bar_icon](../media/bar_icon.png)，柱图的图例会自动显示在报表展示区。在数据标签页，完成数据配置。
+2. Double-click the bar chart |bar_icon| icon. The bar chart template is added to the report display section. Complete the data configuration under the **Data** tab.
 
-3. 设置过滤器，点击**选择字段**，下拉列表中将显示数据集中除日期类的维度字段。
+3. For the **Filter** field, the drop-down list shows all the measure fields (except fields of date type) in the selected dataset.
 
-4. 选择某个字符类维度字段，以场站名为例，点击![funnel](../media/funnel.png)，在弹窗中配置过滤条件。
+4. Select a measure field of string type (taking "site name" as example).
 
-   ![data_filter_string](../media/data_filter_string.png)
+5. Click the funnel |funnel| icon and complete the filtering condition in the pop-up dialog.
 
-5. 设置完成后，点击**确定**，空心漏斗![funnel](../media/funnel.png)自动变为实心漏斗![funnel_config](../media/funnel_config.png)，表示过滤条件设置成功。
+   .. image:: ../media/data_filter_string.png
 
-6. 点击**更新**，系统自动更新图表，过滤器设置成功。
+6. After the filtering condition is set, click **OK**. The funnel icon will become a solid one |funnel_config| to indicate that the filter is set.
 
-   > 请注意，配置图表的数据时，只有点击**更新**，数据配置才会生效。
+7. Click the **Update** button, and the system will refresh the data in the bar chart with the configured filter.
 
-7. 配置完成后，点击工具栏中的**保存**。
+   .. note:: The data configuration will take effect only after you click the **Update** button.
 
-   > 字符类的维度字段，过滤条件包括等于，不等于，模糊匹配以及模糊不匹配。
+8. After all configuration is completed, click **Save** in the tool bar to save the chart.
 
-**数值类**
+   .. note:: For data fields of character type, supported filtering conditions include equal to, not equal to, fuzzy match, and fuzzy dismatch.
 
-1. 登录**控制台**，选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
+## Numeric data type
 
-2. 双击柱图图标![bar_icon](../media/bar_icon.png)，柱图的图例会自动显示在报表展示区。在数据标签页，完成数据配置。
+1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-3. 设置过滤器，点击**选择字段**，下拉列表中将显示数据集中除日期类的维度字段。
+2. Double-click the bar chart |bar_icon| icon. The bar chart template is added to the report display section. Complete the data configuration under the **Data** tab.
 
-4. 选择某个数值类维度字段，以平均风速为例，点击![funnel](../media/funnel.png)，在弹窗中配置过滤条件。
+3. For the **Filter** field, the drop-down list shows all the measure fields (except fields of date type) in the selected dataset.
 
-   ![data_filter_numerical](../media/data_filter_numerical.png)
+4. Select a measure field of numeric type (taking "wind speed" as example).
 
-5. 设置完成后，点击**确定**，空心漏斗![funnel](../media/funnel.png)自动变为实心漏斗![funnel_config](../media/funnel_config.png)，表示过滤条件设置成功。
+5. Click the funnel |funnel| icon and complete the filtering condition in the pop-up dialog.
 
-6. 点击**更新**，系统自动更新图表，过滤器设置成功。
+   .. image:: ../media/data_filter_numerical.png
 
-   > 请注意，配置图表的数据时，只有点击**更新**，数据配置才会生效。
+6. After the filtering condition is set, click **OK**. The funnel icon will become a solid one |funnel_config| to indicate that the filter is set.
 
-7. 配置完成后，点击工具栏中的**保存**。
+7. Click the **Update** button, and the system will refresh the data in the bar chart with the configured filter.
 
-   > 数值类的维度字段，过滤条件包括等于，不等于，大于，大于等于，小于，小于等于以及介于。
+   .. note:: The data configuration will take effect only after you click the **Update** button.
+
+8. After all configuration is completed, click **Save** in the tool bar to save the chart.
+
+   .. note:: For data fields of character type, supported filtering conditions include equal to, not equal to, greater than, greater than or equal to, less than, less than or equal to, and between.
+
+.. |bar_icon| image:: ../media/bar_icon.png
+
+.. |funnel| image:: ../media/funnel.png
+
+.. |funnel_config| image:: ../media/funnel_config.png
+
+<!--end-->

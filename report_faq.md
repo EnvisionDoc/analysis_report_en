@@ -4,7 +4,7 @@
 
 A: Open the dataset editing page and click the **Sync table structure** button. The dataset will be synchronized. 
 
-**Note**: Datasets that are created through SQL model do not support synchronizing table structure.
+.. note:: Datasets that are created through SQL model do not support synchronizing table structure.
 
 #### Q: How to add calculation fields (dimension/measure) in a dataset?
 
@@ -25,7 +25,7 @@ A: Open the dataset editing page, click on a measure, navigate to **Data formatt
 
 A: Open the report editing page, create a report and complete data configuration. To set data filter, click the **Data** tab and choose a data field to be filtered from the drop-down list of the **Filter** section. Then, click the **Funnel** icon and specify the filtering conditions in the pop-up window. 
 
-**Note**: Filtering values must be separated by commas in English.
+.. note:: Filtering values must be separated by commas in English.
 
 #### Q: In configuring a query condition control, why is the query result empty when it is associated with a chart and multiple fields?
 

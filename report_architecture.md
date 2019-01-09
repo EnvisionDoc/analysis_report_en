@@ -2,8 +2,8 @@
 
 The architecture of the BI & Report service is shown as follows.
 
-![infrastructure](media/infrastructure.png)
-
+.. image:: media/infrastructure.png
+   :width: 500px
 
 
 The major modules and their functions are described in the following sections.
@@ -30,7 +30,7 @@ The major modules and their functions are described in the following sections.
 
 - **Report Manager**
 
-  Report Manager supports the lifecycle management of reports, including operations like creating, deleting, copying, and editing. Furthermore, created reports can be published, either open to all people in the organization, or visible only to the report owner. 
+  Report Manager supports the lifecycle management of reports, including operations like creating, deleting, copying, and editing. Furthermore, created reports can be published, either open to all people in the organization, or visible only to the report owner.
 
 - **Visulization Control Library**
 

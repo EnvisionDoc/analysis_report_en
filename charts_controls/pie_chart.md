@@ -12,7 +12,7 @@ Before creating a report, you must have datasets created. Take the following ste
 
 1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
 
-2. Double-click the **Pie chart** icon ![pie_icon](../media/pie_icon.png). The pie chart template is added to the report display section.
+2. Double-click the **Pie chart** icon |pie_icon|. The pie chart template is added to the report display section.
 
 3. Under the **Data** tab, select a dataset to be used from the drop-down list of the **Dataset** field.
 
@@ -20,19 +20,19 @@ Before creating a report, you must have datasets created. Take the following ste
 
 5. Click the **Update** button. The pie chart will be refreshed to display the selected data.
 
-   **Note**: The data configuration will take effect only after you click the **Update** button.
+   .. note:: The data configuration will take effect only after you click the **Update** button.
 
-6. If you want to set a data filter, see **How to set data filter for a report** in the [FAQ section](../report_faq).
+6. If you want to set a data filter, see [Setting Filters](filter).
 
 7. To set automatic data refresh, enter an interval value in the **Refresh** field. The minimum value supported is 5 seconds.
 
-   ![pie_data](../media/pie_data.png)
+   .. image:: ../media/pie_data.png
 
 8. After data configuration is completed, you can set the layout of the pie chart under the **Style** tab, including **Common** and **Design** configuration. The style settings take effect in real time.
 
    - Checkbox for displaying title
 
-   - Checkbox for displaying border 
+   - Checkbox for displaying border
 
    - Checkbox for pie chart style (default or hollow)
 
@@ -42,16 +42,23 @@ Before creating a report, you must have datasets created. Take the following ste
 
    - Checkbox for displaying tooltip
 
-   - Setting for the position of legend (Top, Bottom, Left, or Right). 
+   - Setting for the position of legend (Top, Bottom, Left, or Right).
 
-     ![pie_style](../media/pie_style.png)
+     .. image:: ../media/pie_style.png
 
 9. After style configuration is completed, you can set multi-chart association under the **Advanced** tab.
 
 10. In the report display section, click on the legend to set whether to display the measure values.
 
-    ![pie_legend](../media/pie_legend.png)
+    .. image:: ../media/pie_legend.png
+       :width: 400px
 
-11. To view the chart data or download data, click the![chart_spread](../media/chart_spread.png)icon in the upper right corner of the chart and click **View data** > **Download**. Optionally, click **Delete** to delete the chart.
+11. To view the chart data or download data, click the |chart_spread| icon in the upper right corner of the chart and click **View data** > **Download**. Optionally, click **Delete** to delete the chart.
 
 12. After all configuration is completed, click **Save** in the tool bar to save the chart.
+
+.. |pie_icon| image:: ../media/pie_icon.png
+
+.. |chart_spread| image:: ../media/chart_spread.png
+
+<!--end-->

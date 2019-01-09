@@ -9,9 +9,13 @@ Before creating a report, ensure that the data preparation work is completed. Se
 ## Creating a Report
 
 1. Select **BI & Report > Reports** from the left navigation panel.
+
 2. Click the **New Report** button to open the **Report Editing** page.
+
 3. Select a chart to be used from the **Charts** tab by double-clicking the chart icon.
+
 4. Set advanced configurations like data filtering and multi-chart association.
+
 5. Choose to publish the report within the organization or export the report as PDF.
 
 ### Using Charts
@@ -29,62 +33,46 @@ Based on business needs, use the following charts to create reports:
 
 The configuration differences for the charts are as follows:
 
-<table> 
-  <tr> 
-    <td>Chart Name</td> 
-    <td>Number of Dimensions</td> 
-    <td>Number of Measures</td> 
-    <td>Supporting Multi-Chart Association</td> 
-  </tr> 
-  <tr> 
-    <td>Bar Chart</td> 
-    <td>1</td> 
-    <td>1 or more</td> 
-    <td>Yes</td>
-  </tr> 
-  <tr> 
-    <td>Line Chart</td> 
-    <td>1</td> 
-    <td>1 or more</td> 
-    <td>Yes</td>
-  </tr> 
-  <tr> 
-    <td>Pie Chart</td> 
-    <td>1</td> 
-    <td>1</td> 
-    <td>Yes</td>
-  </tr> 
-  <tr> 
-    <td>Cross Table</td> 
-    <td>0 or more</td> 
-    <td>0 or more</td> 
-    <td>No</td>
-  </tr> 
-  <tr> 
-    <td>Indicating Block</td> 
-    <td>0 or 1</td> 
-    <td>1 or more</td> 
-    <td>Yes</td>
-  </tr> 
-  <tr> 
-    <td>Gauge</td> 
-    <td>0</td> 
-    <td>1</td> 
-    <td>No</td>
-  </tr> 
-  <tr> 
-    <td>Scatter Chart</td> 
-    <td>1 or more</td> 
-    <td>2</td> 
-    <td>Yes</td>
-  </tr> 
-  <tr> 
-    <td>Highlight Table</td> 
-    <td>2 or more</td> 
-    <td>1</td> 
-    <td>No</td>
-  </tr> 
-</table>
+.. list-table::
+   :widths: auto
+
+   * - Chart Name
+     - Number of Dimensions
+     - Number of Measures
+     - Supporting Multi-Chart Association
+   * - Bar Chart
+     - 1
+     - 1 or more
+     - Yes
+   * - Line Chart
+     - 1
+     - 1 or more
+     - Yes
+   * - Pie Chart
+     - 1
+     - 1
+     - Yes
+   * - Cross Table
+     - 0 or more
+     - 0 or more
+     - No
+   * - Indicating Block
+     - 0 or 1
+     - 1 or more
+     - Yes
+   * - Gauge
+     - 0
+     - 1
+     - No
+   * - Scatter Chart
+     - 1 or more
+     - 2
+     - Yes
+   * - Highlight Table
+     - 2 or more
+     - 1
+     - No
+
 
 For details about configuring multi-chart association, see [Multiple Chart Association](charts_controls/multiple_chart_interlock).
 
@@ -101,4 +89,4 @@ Based on business needs, use the following controls to create reports:
 
 ## Related Information
 
-For detailed introduction to the charts and controls, see [Using Charts and Controls](../charts_controls/index).
+For detailed introduction to the charts and controls, see [Using Charts and Controls](charts_controls/index).
