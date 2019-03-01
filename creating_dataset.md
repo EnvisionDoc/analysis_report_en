@@ -8,7 +8,7 @@ Before creating datasets, ensure that data source tables have already been creat
 
 ## Procedure
 
-Log in the EnOS Console, select **BI & Report > Data** from the left navigation, and choose the **Data Sources** tab. Currently, you can create datasets with 2 options. Click **Switch to table** or **Switch to SQL** in the upper right corner of the page to switch the method of creating datasets.
+Log in the EnOS Console, select **Data Report > Data** from the left navigation, and choose the **Data Sources** tab. Currently, you can create datasets with 2 options. Click **Switch to table** or **Switch to SQL** in the upper right corner of the page to switch the method of creating datasets.
 
 ### Single Table Model
 

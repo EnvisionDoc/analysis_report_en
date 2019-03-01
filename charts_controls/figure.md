@@ -4,7 +4,7 @@ When creating reports, you can use the image control to upload local pictures or
 
 Take the following steps to configure the image control.
 
-1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
+1. Log in EnOS Console and select **Data Report** > **Report** > **New Report** to open the report editing page.
 
 2. Double-click the **Image** icon |pic_icon|. The image control is added to the report display section.
 

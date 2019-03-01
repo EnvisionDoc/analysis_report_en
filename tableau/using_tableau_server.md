@@ -15,7 +15,7 @@ Ensure that the following requirements are met:
 1. From the left navigation panel, click **Third party plugins > Tableau**. The **Information** page shows the number of Tableau Server licenses purchased, the date of purchase, and the expiration date.
 
    .. image:: media/tableau_basicinfo_en.png
-      :width: 500px
+      
 
    - You can click **Enter** to enter the login page of Tableau Server, and manage the site of your Tableau Server instance on EnOS. About Tableau Server site management, please refer to  [site management.](https://onlinehelp.tableau.com/current/server/en-us/manage_site.htm).
    - Or you can click **More about Tableau** and enter to Tableau website to learn more about Tableau products and services.
@@ -23,7 +23,7 @@ Ensure that the following requirements are met:
 2. Click **User Management**.
 
    .. image:: media/tableau_usermgnt_en.png
-      :width: 500px
+      
 
    - User list view displays the basic information of account in Tableau Server, such as display name, user name, and site role.
    - You can choose **Operation** to register your application account or modify the link between application account and Tableau Server account.
@@ -31,7 +31,7 @@ Ensure that the following requirements are met:
 3. Register the application account and associate the purchased Tableau account.
 
    .. image:: media/tableau_link_user_en.png
-      :width: 400px
+      
 
    There are two sources of application accounts you have registered.
    - EnOS account: the account of the current EnOS customer.

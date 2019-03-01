@@ -7,11 +7,10 @@ Users in an organization share a Report DB, that is, data of the organization ar
 Find the dataset to be copied, expand the operation menu, and select **Copy**. You can then edit the copy of the dataset under the **Mine** tab. See the following screen capture.
 
 .. image:: media/dataset_list.png
-   :width: 700px
 
 ## Publishing a report public to the organization
 
-When report editing is completed, you can publish the report public to the whole organization or visible to the owner only. After the report is published, a URL is generated for it. With the URL and user account verification, users can view the report online without logging in to the EnOS Console and entering the BI & Report service.
+When report editing is completed, you can publish the report public to the whole organization or visible to the owner only. After the report is published, a URL is generated for it. With the URL and user account verification, users can view the report online without logging in to the EnOS Console and entering the Data Report service.
 
 If **Organization public** is selected, the report is visible to all users in the organization. If **Only the user** is selected, the published report is visible to the report owner only.
 
@@ -26,7 +25,7 @@ You have 2 options to publish a report:
 See the following screen capture.
 
 .. image:: media/report_publish.png
-   :width: 800px
+
 
 .. |dataset_menu_extend| image:: media/dataset_menu_extend.png
 

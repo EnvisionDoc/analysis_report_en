@@ -1,10 +1,8 @@
 # System Architecture
 
-The architecture of the BI & Report service is shown as follows.
+The architecture of the Data Report service is shown as follows.
 
 .. image:: media/infrastructure.png
-   :width: 500px
-
 
 The major modules and their functions are described in the following sections.
 
@@ -12,7 +10,7 @@ The major modules and their functions are described in the following sections.
 
 - **Data Source**
 
-  By default, EnOS system creates a Report DB for organizations with the BI & Report module enabled. The feature of the Report DB is high real-time query efficiency, which meets the requirement of data analysis well. You can use the data integration function to synchronize data from Hive to the Report DB, thus completing data preparation.
+  By default, EnOS system creates a Report DB for organizations with the Data Report module enabled. The feature of the Report DB is high real-time query efficiency, which meets the requirement of data analysis well. You can use the data integration function to synchronize data from Hive to the Report DB, thus completing data preparation.
 
 - **Dataset Designer**
 
@@ -34,10 +32,10 @@ The major modules and their functions are described in the following sections.
 
 - **Visulization Control Library**
 
-  BI & Report provides a rich set of charts and controls to meet the needs of data visualization and analysis in most business scenarios. Charts include bar charts, polyline charts, pie charts, crosstabs, scatter charts, indicator blocks, dashboards, and highlight tables. Controls include query, IFrame, text box, pictures, and so on.
+  Data Report provides a rich set of charts and controls to meet the needs of data visualization and analysis in most business scenarios. Charts include bar charts, polyline charts, pie charts, crosstabs, scatter charts, indicator blocks, dashboards, and highlight tables. Controls include query, IFrame, text box, pictures, and so on.
 
 ## Security Management Module
 
 - **Data Security**
 
-  By default, EnOS platform creates a Report DB for organizations with the BI & Report module enabled, which isolates the storage of organization resources. Besides, the BI & Report service is integrated with the EnOS IAM (indentity and access management) system. Access to published reports requires user account login and authentication.
+  By default, EnOS platform creates a Report DB for organizations with the Data Report module enabled, which isolates the storage of organization resources. Besides, the Data Report service is integrated with the EnOS IAM (indentity and access management) system. Access to published reports requires user account login and authentication.

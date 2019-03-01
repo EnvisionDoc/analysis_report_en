@@ -33,14 +33,15 @@ You can visit the [Tableau website](http://www.tableau.com/) for more detailed i
 ## Key personas
 
 - **Customer**: The owner of data in EnOS is usually the purchaser of Tableau Server service.
-- **Application** Developer: Application developers under the customer organization who have the permissions of application management.
+- **Application** Developer: Application developers under the customer organization who have the permissions of application registration.
 - **Data Analyst**: The data analyst under the customer organization has the permission to deal with the data of customers in EnOS.
 
 ## How does the Tableau Server service work?
+
 The following picture describes how Tableau Serve services on EnOS collaborate with business applications, data sources, Tableau Desktop and Tableau Server:
 
 .. image:: media/tableau_overview_en.png
-   :width: 800px
+
 
 1. Data analysts prepare data sources.
 

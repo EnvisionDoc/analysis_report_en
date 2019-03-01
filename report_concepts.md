@@ -3,11 +3,10 @@
 The key objects in a reporting platform include data sources, datasets, and reports, as described below.
 
 .. image:: media/report_concepts.png
-   :width: 650px
 
 ## Data Source
 
-Before making a report, you need to prepare the data or specify the data source where raw data is located. By default, EnOS system creates a Report DB for organizations with the BI & Report module enabled. You can use the data integration function to synchronize data from Hive to the Report DB.
+Before making a report, you need to prepare the data or specify the data source where raw data is located. By default, EnOS system creates a Report DB for organizations with the Data Report module enabled. You can use the data integration function to synchronize data from Hive to the Report DB.
 
 ## Dataset
 

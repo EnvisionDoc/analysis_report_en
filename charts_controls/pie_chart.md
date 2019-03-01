@@ -10,7 +10,7 @@ Pie chart supports 1 dimension and 1 measure.
 
 Before creating a report, you must have datasets created. Take the following steps to configure settings for the pie chart.
 
-1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
+1. Log in EnOS Console and select **Data Report** > **Report** > **New Report** to open the report editing page.
 
 2. Double-click the **Pie chart** icon |pie_icon|. The pie chart template is added to the report display section.
 
@@ -51,7 +51,7 @@ Before creating a report, you must have datasets created. Take the following ste
 10. In the report display section, click on the legend to set whether to display the measure values.
 
     .. image:: ../media/pie_legend.png
-       :width: 400px
+       
 
 11. To view the chart data or download data, click the |chart_spread| icon in the upper right corner of the chart and click **View data** > **Download**. Optionally, click **Delete** to delete the chart.
 

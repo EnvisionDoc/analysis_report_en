@@ -8,7 +8,7 @@ Scatter chart supports 1 or multiple dimensions and 2 measures.
 
 Before creating a report, you must have datasets created. Take the following steps to configure settings for the scatter chart.
 
-1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
+1. Log in EnOS Console and select **Data Report** > **Report** > **New Report** to open the report editing page.
 
 2. Double-click the **Scatter chart** icon |scatter_icon|. The scatter chart template is added to the report display section.
 

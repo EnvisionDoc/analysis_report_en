@@ -1,6 +1,6 @@
 # Managing Datasets
 
-Log in the EnOS Console, select **BI & Report > Data** from the left navigation, and choose the **Datasets**. You can view the information of datasets to which you have access. You can edit, rename, copy, or delete datasets. For datasets that are created by the SQL model, you can modify the SQL statements.
+Log in the EnOS Console, select **Data Report > Data** from the left navigation, and choose the **Datasets**. You can view the information of datasets to which you have access. You can edit, rename, copy, or delete datasets. For datasets that are created by the SQL model, you can modify the SQL statements.
 
 ## Datasets
 
@@ -9,7 +9,6 @@ Log in the EnOS Console, select **BI & Report > Data** from the left navigation,
 Under the **Datasets** tab, you can view information about datasets that are classified by groups of **Mine** and **All**. See the following screen capture.
 
 .. image:: media/dataset_list.png
-   :width: 800px
 
 - Under the **Mine** tab, you can view datasets that you created and datasets that you copied from the **All** tab, which are created by other users in the organization. You can edit, rename, copy, and delete datasets under the **Mine** tab.
 - Under the **All** tab, you can view all datasets that you created and datasets that are created by other users in the organization. You can only view and copy datasets that are created by other users.
@@ -46,7 +45,7 @@ On the page of my dataset list, click the Edit |edit_dataset| button, and edit t
 .. |edit_dataset| image:: media/edit_dataset.png
 
 .. image:: media/dataset_edit_overview.png
-   :width: 800px
+
 
 The dataset editing page can be divided into 3 sections:
 - **Dimension / Measure editing section**
@@ -95,7 +94,7 @@ From the list of dimensions, click on the target dimension field, and select the
   In the pop-up dialog, enter customized expressions, values, or characters in the **Expression** field. Currently supported calculation logics include sum, avg, max, min, etc. See the following screen capture.
 
   .. image:: media/new_dimension.png
-     :width: 650px
+
 
 - **Convert to measure**
 
@@ -106,7 +105,7 @@ From the list of dimensions, click on the target dimension field, and select the
   Supporting the switch of default and date types. Supported date formats are as follows:
 
   .. image:: media/edit_dimension.png
-     :width: 750px
+
 
 #### Editing Measures
 
@@ -146,7 +145,7 @@ From the list of measures, click on the target measure field, and select the ope
   Select the default aggregation method for the measure field. The supported aggregation methods include sum, count, max, min, and avg.
 
   .. image:: media/edit_measure.png
-     :width: 650px
+
 
 ### Modifying SQL Statements
 

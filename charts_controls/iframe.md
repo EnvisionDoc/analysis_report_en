@@ -4,7 +4,7 @@ When creating reports, you can use the iFrame control to insert external pages f
 
 Take the following steps to configure the iFrame control.
 
-1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
+1. Log in EnOS Console and select **Data Report** > **Report** > **New Report** to open the report editing page.
 
 2. Double-click the **iFrame** icon |iFrame_icon|. The iFrame control is added to the report display section.
 

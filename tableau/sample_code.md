@@ -28,11 +28,11 @@ This example simulates a Web application, sending a request to the back-end serv
 3. Run the `TableauPluginDemoApplication` class. Browse to `localhost: 8080` in the browser to enter the following page.
 
   .. image:: media/sample_01.png
-     :width: 700px
+     
 
 4. Click  **Report**. The application will load the tableau worksheet page in the form of `iframe`.
 
   .. image:: media/sample_02.png
-     :width: 700px
+     
 
 <!--end-->

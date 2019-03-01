@@ -4,7 +4,7 @@ Text box can be used to enter a fixed paragraph of text, for making the title of
 
 Take the following steps to configure the text box control.
 
-1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
+1. Log in EnOS Console and select **Data Report** > **Report** > **New Report** to open the report editing page.
 
 2. Double-click the **Text box** icon |text_icon| under the **Controls** tab. The text editor is added to the report display section.
 

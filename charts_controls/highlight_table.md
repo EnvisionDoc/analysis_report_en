@@ -8,7 +8,7 @@ Highlight table supports 2 or multiple dimensions and 1 measure, and it does not
 
 Before creating a report, you must have datasets created. Take the following steps to configure settings for the highlight table.
 
-1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
+1. Log in EnOS Console and select **Data Report** > **Report** > **New Report** to open the report editing page.
 
 2. Double-click the **Highlight Table** icon |highlighttable_icon|. The highlight table template is added to the report display section.
 
@@ -59,7 +59,7 @@ Before creating a report, you must have datasets created. Take the following ste
     - Click **OK**.
 
       .. image:: ../media/highlighttable_range.png
-         :width: 300px
+         
 
 11. Highlight table does not support multi-chart association.
 

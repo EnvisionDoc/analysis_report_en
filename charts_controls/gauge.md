@@ -10,7 +10,7 @@ Gauge supports 0 dimension and 1 measure.
 
 Before creating a report, you must have datasets created. Take the following steps to configure settings for the gauge.
 
-1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
+1. Log in EnOS Console and select **Data Report** > **Report** > **New Report** to open the report editing page.
 
 2. Double-click the **Gauge** icon |gauge_icon|. The gauge template is added to the report display section.
 
@@ -57,7 +57,7 @@ Before creating a report, you must have datasets created. Take the following ste
    - Click **OK**.
 
      .. image:: ../media/gauge_range.png
-        :width: 400px
+        
 
 10. Gauge does not support multi-chart association.
 

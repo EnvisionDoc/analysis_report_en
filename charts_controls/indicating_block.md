@@ -8,7 +8,7 @@ Indicating block supports 0 or 1 dimension and 1 or multiple measures. When no d
 
 Before creating a report, you must have datasets created. Take the following steps to configure settings for the indicating block.
 
-1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
+1. Log in EnOS Console and select **Data Report** > **Report** > **New Report** to open the report editing page.
 
 2. Double-click the **Indicating block** icon |index_icon|. The indicating block template is added to the report display section.
 

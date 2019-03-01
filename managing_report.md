@@ -1,6 +1,6 @@
 # Managing Reports
 
-After a report is created, it will be listed in the table on the **Report** page. Select **BI & Report > Reports** from the left navigation panel and manage your reports as needed. You can preview, edit, rename, copy, publish/offline, delete a report, or view published reports.
+After a report is created, it will be listed in the table on the **Report** page. Select **Data Report > Report** from the left navigation panel and manage your reports as needed. You can preview, edit, rename, copy, publish/offline, delete a report, or view published reports.
 
 ## Report List
 
@@ -11,14 +11,14 @@ Reports created by the current user are listed under the **Mine** tab.
 Reports created by the current user and by other users in the organization (also published as open within the organization) are listed under the **All** tab. You can view the published reports created by other users in the organization. See the following screen capture.
 
 .. image:: media/report_operation.png
-   :width: 800px
+
 
 ## Report Editing Page
 
 From the list of created reports, click the **Edit** icon of a report to open the report editing page. See the following screen capture.
 
 .. image:: media/report_edit.png
-   :width: 800px
+
 
 The report editing page consists of 3 parts, the chart and control configuration section, the report display section, and the tool bar.
 
@@ -26,7 +26,7 @@ The report editing page consists of 3 parts, the chart and control configuration
 
 Based on your business needs, select a chart or control to be used by double-clicking the chart icon or control icon. You can also edit the chart title, set data filters, and configure multi-chart association.
 
-BI & Report service provides a rich set of charts, including bar charts, line charts, pie charts, cross tables, scatter charts, indicating blocks, gauges, and highlight tables, which can satisfy various data visualization requirements. After adding a chart to the report display section, click the **Data** tab and select a dataset and the corresponding values for the dimension and measure. Then, click the **Style** tab and configure the layout and display of the table. Optionally, click the **Advanced** tab and configure multi-chart association (if application) for the report.
+Data Report service provides a rich set of charts, including bar charts, line charts, pie charts, cross tables, scatter charts, indicating blocks, gauges, and highlight tables, which can satisfy various data visualization requirements. After adding a chart to the report display section, click the **Data** tab and select a dataset and the corresponding values for the dimension and measure. Then, click the **Style** tab and configure the layout and display of the table. Optionally, click the **Advanced** tab and configure multi-chart association (if application) for the report.
 
 **Report Display Section**
 
@@ -54,18 +54,18 @@ You have 2 options to preview a report:
 - On the report editing page, click the **Preview** button in the tool bar.
 
 .. image:: media/report_preview.png
-   :width: 800px
+
 
 ## Publishing / Offline a Report
 
 **Publishing a Report**
 
-When report editing is completed, you can publish the report as visible to the whole organization or to the owner only. After the report is published, a URL is generated for it. With the URL and user account verification, users can view the report online without logging in to the EnOS Console and entering the BI & Report service.
+When report editing is completed, you can publish the report as visible to the whole organization or to the owner only. After the report is published, a URL is generated for it. With the URL and user account verification, users can view the report online without logging in to the EnOS Console and entering the Data Report service.
 
 If "Only the user" is selected, the published report is visible to the report owner only; if "Organization public" is selected, the report is visible to all users in the organization.
 
 .. image:: media/report_publish.png
-   :width: 800px
+
 
 To view a published report, click the report name in the report list. To view reports that are public in the organization, click the **All** tab on the Report page.
 
@@ -109,22 +109,22 @@ You have 3 options to export a report as PDF:
 
 **Show Paging Line**
 
-The report content is automatically paginated in the exported PDF file. If the report content exceeds a page,  a chart might be split into two parts. To ensure the integrity and quality of the exported report, BI & Report service provides a global setting for showing paging lines.
+The report content is automatically paginated in the exported PDF file. If the report content exceeds a page,  a chart might be split into two parts. To ensure the integrity and quality of the exported report, Data Report service provides a global setting for showing paging lines.
 
 Click on the white area of the report display section, the global setting is displayed in the configuration section. Select the **Show Paging Line** checkbox, a dashed line is displayed in the report display section as the paging line. You can adjust the size of the chart for the paging line. When the report is export as PDF, the report will be divided into pages according to the location of the paging line. See the following screen capture.
 
 .. image:: media/report_pageline.png
-   :width: 800px
+
 
 ## Viewing a Published Report
 
-Select **BI & Report** > Reports from the left navigation panel and click the name of a published report on the report list page. The published report is displayed on a new page.
+Select **Data Report** > **Report** from the left navigation panel and click the name of a published report on the report list page. The published report is displayed on a new page.
 
 Under the **All** tab, you can view reports created by other users in the organization and published as public within the organization. Click the report name to view the report content.
 
 ## Renaming a Report
 
-Select **BI & Report** > Reports from the left navigation panel to open the report list.
+Select **Data Report** > **Report** from the left navigation panel to open the report list.
 
 You have 2 options to rename a report:
 
@@ -135,13 +135,13 @@ A report name can be used repeatedly and it supports English and Chinese charact
 
 ## Copying a Report
 
-Select **BI & Report** > Reports from the left navigation panel to open the report list.
+Select **Data Report** > **Report** from the left navigation panel to open the report list.
 
 On the report list page, expand the menu |dataset_menu_extend| and select **Copy**. The system will generate a copy of the report and add suffix "copy" to the name of the report.
 
 ## Deleting a Report
 
-Select **BI & Report** > Reports from the left navigation panel to open the report list.
+Select **Data Report** > **Report** from the left navigation panel to open the report list.
 
 On the report list page, expand the menu |dataset_menu_extend| and select **Delete**. Click **OK** when prompted to delete the report.
 

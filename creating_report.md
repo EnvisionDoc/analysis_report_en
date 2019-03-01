@@ -1,6 +1,6 @@
 # Creating Reports
 
-The report content can be customized in a WYSIWYG way by dragging the charts to adjust the report layout according to your business needs. The BI & Report service applies flexible tiles layout to display the interaction of report data. A report may contain a variety of analysis charts and controls. Filtering, multi-chart association, and other advanced operations are also supported.
+The report content can be customized in a WYSIWYG way by dragging the charts to adjust the report layout according to your business needs. The Data Report service applies flexible tiles layout to display the interaction of report data. A report may contain a variety of analysis charts and controls. Filtering, multi-chart association, and other advanced operations are also supported.
 
 ## Prerequisites
 
@@ -8,9 +8,9 @@ Before creating a report, ensure that the data preparation work is completed. Se
 
 ## Creating a Report
 
-1. Select **BI & Report > Reports** from the left navigation panel.
+1. Select **Data Report > Report** from the left navigation panel.
 
-2. Click the **New Report** button to open the **Report Editing** page.
+2. Click the **New Report** button to open the report **Editing** page.
 
 3. Select a chart to be used from the **Charts** tab by double-clicking the chart icon.
 

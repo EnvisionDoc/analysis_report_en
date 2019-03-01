@@ -8,7 +8,7 @@ The  following section introduces how to set filters using bar chart as example:
 
 ## String data type
 
-1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
+1. Log in EnOS Console and select **Data Report** > **Report** > **New Report** to open the report editing page.
 
 2. Double-click the bar chart |bar_icon| icon. The bar chart template is added to the report display section. Complete the data configuration under the **Data** tab.
 
@@ -32,7 +32,7 @@ The  following section introduces how to set filters using bar chart as example:
 
 ## Numeric data type
 
-1. Log in EnOS Console and select **BI & Report** > **Reports** > **New Report** to open the report editing page.
+1. Log in EnOS Console and select **Data Report** > **Report** > **New Report** to open the report editing page.
 
 2. Double-click the bar chart |bar_icon| icon. The bar chart template is added to the report display section. Complete the data configuration under the **Data** tab.
 
