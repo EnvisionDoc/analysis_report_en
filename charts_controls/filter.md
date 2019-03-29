@@ -42,8 +42,6 @@ The  following section introduces how to set filters using bar chart as example:
 
 5. Click the funnel |funnel| icon and complete the filtering condition in the pop-up dialog.
 
-   .. image:: ../media/data_filter_numerical.png
-
 6. After the filtering condition is set, click **OK**. The funnel icon will become a solid one |funnel_config| to indicate that the filter is set.
 
 7. Click the **Update** button, and the system will refresh the data in the bar chart with the configured filter.

@@ -8,7 +8,7 @@ Take the following steps to configure the iFrame control.
 
 2. Double-click the **iFrame** icon |iFrame_icon|. The iFrame control is added to the report display section.
 
-3. Under the **Data** tab, enter the URL of the external page. Take https://www.baidu.com for example.
+3. Under the **Data** tab, enter the URL of the external page. 
 
 4. Click the **Update** button, and the iFrame control will be refreshed to display the external page.
 
@@ -17,8 +17,6 @@ Take the following steps to configure the iFrame control.
    - Checkbox for displaying title
 
    - Checkbox for displaying border
-
-     .. image:: ../media/iFrame_legend.png
 
 6. To delete the iFrame, select it first, click the |chart_spread| icon in the upper right corner of the iFrame control, and select **Delete**.
 
