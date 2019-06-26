@@ -3,7 +3,7 @@ As the leading product in the business intelligence software industry, Tableau a
 
 As a seamless integration of data analysis products with EnOS, Tableau Server not only reinforces the capacity of EnOS in displaying and analyzing data but also  provides an integrated framework for rapid integration of Tableau worksheets.
 
-## Why Tableau Server services on EnOS?
+## Why Tableau Server services on EnOS™
 The Tableau Server service on EnOS simplifies the complexity of the business application integration of Tableau worksheets and safeguard the security of customer data.
 
 **Agile**  
