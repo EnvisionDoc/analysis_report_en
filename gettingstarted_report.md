@@ -20,23 +20,23 @@ You can synchronize the off-line data stored in your business system to the data
 
 1. Add data connection.
 
-   Log in the EnOS Console and select **Data Connection** from the left navigation panel. Click the **Add Data Connection** button to complete adding Data Connections. For information about supported Data Connection types and how to configure Data Connection connection, see [Managing Data Connection](managing_datasource).
+   Log in the EnOS Console and select **Data Connection** from the left navigation panel. Click the **Add Data Connection** button to complete adding Data Connections. For information about supported Data Connection types and how to configure Data Connection connection, see [Data Connection](/docs/offline-data/en/latest/data_source/index.html).
 
 2. Create target tables.
 
-   Select **Data Explorer** from the left navigation panel and click the **New note** button to create target tables. For details, see [Creating a Hive Table](https://www.envisioniot.com/docs/data-explorer/en/latest/creating_hivetable.html). If target tables already exist, you can skip this step.
+   Select **Data Explorer** from the left navigation panel and click the **New note** button to create target tables. For details, see [Creating a Hive Table](/docs/offline-data/en/latest/data_explorer/creating_hivetable.html). If target tables already exist, you can skip this step.
 
 3. Create data integration tasks.
 
-   Select **Data Integration** from the left navigation panel and click **New data integration task** and complete the configuration of the task flow. Based on your business needs, you can use data filters to synchronize partial data from the data connection. For details, see [Data Integration](https://www.envisioniot.com/docs/offline-data/en/latest/data_integration/index.html).
+   Select **Data Integration** from the left navigation panel and click **New data integration task** and complete the configuration of the task flow. Based on your business needs, you can use data filters to synchronize partial data from the data connection. For details, see [Data Integration](/docs/offline-data/en/latest/data_integration/index.html).
 
 4. (Optional) Create data development tasks.
 
-   If the data ETL development logic is complex, you can create data development tasks through **Data IDE** > **Data Development** > **New Workflow**. For details about workflow configuration, see [Data IDE Overview](https://www.envisioniot.com/docs/offline-data/en/latest/data_ide/dataide_overview.html).
+   If the data ETL development logic is complex, you can create data development tasks through **Data IDE** > **Data Development** > **New Workflow**. For details about workflow configuration, see [Data IDE](/docs/offline-data/en/latest/data_ide/index.html).
 
 5. Run and monitor the tasks.
 
-   After the data development task is created, click the **Pre-run** button and specify the triggering time for the task. Then, select **Workflow Operation** from the left navigation to view the running status of the workflow. For details, see [Workflow Operation](https://www.envisioniot.com/docs/offline-data/en/latest/task_monitor/taskmonitor_overview.html).
+   After the data development task is created, click the **Pre-run** button and specify the triggering time for the task. Then, select **Workflow Operation** from the left navigation to view the running status of the workflow. For details, see [Workflow Operation](/docs/offline-data/en/latest/task_monitor/taskmonitor_overview.html).
 
 6. Check data synchronization results.
 

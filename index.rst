@@ -38,8 +38,8 @@ Data Analysis and Report
    :maxdepth: 1
    :caption: Related Services
 
-   Stream Analytics <https://www.envisioniot.com/docs/online-data/en/latest/streaming_overview.html>
-   Offline Analytics <https://www.envisioniot.com/docs/offline-data/en/latest/gettingstarted.html>
+   Data Asset Management </docs/data-asset/en/latest/data_asset_overview.html>
+   Data Analytics </docs/offline-data/en/latest/datalake_analytics_overview.html>
 
 Downloads
 """"""""
