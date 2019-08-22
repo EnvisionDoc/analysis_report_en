@@ -13,15 +13,16 @@ Take the following steps to configure the text box control.
 4. Under the **Style** tab, configure the layout of the text box. The style settings take effect in real time.
 
    - Checkbox for displaying title
-   - Checkbox for displaying border |text_legend|
+
+   - Checkbox for displaying border
+
+     .. image:: ../media/text_legend.png
 
 5. To delete the text box, select it first, click the |chart_spread| icon in the upper right corner of the text box, and select **Delete**.
 
 6. After all configuration is completed, click **Save** in the tool bar to save the text box.
 
 .. |text_icon| image:: ../media/text_icon.png
-
-.. |text_legend| image:: ../media/text_legend.png
 
 .. |chart_spread| image:: ../media/chart_spread.png
 

@@ -17,6 +17,7 @@ Taking the bar chart and pie chart as example, instructions on configuring multi
 4. Select the bar chart, click the **Advanced** tab, and select the measure data field of the pie chart to be associated.
 
    .. image:: ../media/multi_correlation.png
+      :width: 300px
 
 .. |bar_icon| image:: ../media/bar_icon.png
 
@@ -29,11 +30,13 @@ Taking the bar chart and pie chart as example, instructions on configuring multi
 1. The bar chart initiates the association, and the measure is the source field. The pie chart is the associated chart, and the associated field is month. The multi-chart association is configured.
 
    .. image:: ../media/multi_correlation_before.png
-      
+      :width: 400px
+
 
 2. In the bar chart, select 2017-12. The pie chart will display data for the month of 2017-12. See the following sample.
 
    .. image:: ../media/multi_correlation_after.png
-      
+      :width: 400px
+
 
 <!--end-->

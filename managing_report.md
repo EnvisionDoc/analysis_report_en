@@ -65,6 +65,7 @@ When report editing is completed, you can publish the report as visible to the w
 If "Only the user" is selected, the published report is visible to the report owner only; if "Organization public" is selected, the report is visible to all users in the organization.
 
 .. image:: media/report_publish.png
+   :width: 400px
 
 
 To view a published report, click the report name in the report list. To view reports that are public in the organization, click the **All** tab on the Report page.

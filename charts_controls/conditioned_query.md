@@ -49,22 +49,22 @@ Data field association: When configuring the query condition control, you need t
 8. Click **OK** to complete the query condition configuration.
 
    .. image:: ../media/search_config_input.png
-      
+      :width: 400px
 
 9. In the query condition control, enter the filtering keywords, and click the **Query** button. The bar chart will display the queried data.
 
    .. image:: ../media/search_legend_input.png
-      
+      :width: 450px
 
 10. Select the query condition control, you can then edit or delete it, or add another query condition under the **Condition config** tab.
 
-    .. image:: ../media/search_config_tab.png
-       
+   .. image:: ../media/search_config_tab.png
+      :width: 300px
 
 11. After the query condition configuration is completed, you can set the layout of the query condition control under the **Style** tab. The style settings take effect in real time.
 
-     - Checkbox for displaying title
-     - Checkbox for displaying border
+   - Checkbox for displaying title
+   - Checkbox for displaying border
 
 12. To delete the image control, select it first, click the |chart_spread| icon in the upper right corner of the control, and select **Delete**.
 
@@ -92,23 +92,23 @@ Data field association: When configuring the query condition control, you need t
 
 10. Click **OK** to complete the query condition configuration.
 
-    .. image:: ../media/search_config_dropdown.png
-       
+   .. image:: ../media/search_config_dropdown.png
+      :width: 400px
 
 11. In the query condition control, select a filtering condition from the drop down list, and click the **Query** button. The bar chart will display the queried data.
 
-    .. image:: ../media/search_legend_dropdown.png
-       
+   .. image:: ../media/search_legend_dropdown.png
+      :width: 450px
 
 12. Select the query condition control, you can then edit or delete it, or add another query condition under the **Condition config** tab.
 
-    .. image:: ../media/search_config_tab.png
-       
+   .. image:: ../media/search_config_tab.png
+      :width: 300px
 
 13. After the query condition configuration is completed, you can set the layout of the query condition control under the **Style** tab. The style settings take effect in real time.
 
-    - Checkbox for displaying title
-    - Checkbox for displaying border
+   - Checkbox for displaying title
+   - Checkbox for displaying border
 
 14. To delete the image control, select it first, click the |chart_spread| icon in the upper right corner of the control, and select **Delete**.
 
@@ -136,23 +136,23 @@ Data field association: When configuring the query condition control, you need t
 
 10. Click **OK** to complete the query condition configuration.
 
-    .. image:: ../media/search_config_tile.png
-       
+   .. image:: ../media/search_config_tile.png
+      :width: 400px
 
 11. In the query condition control, click on a filtering condition and click the **Query** button. The bar chart will display the queried data.
 
-    .. image:: ../media/search_legend_tile.png
-       
+   .. image:: ../media/search_legend_tile.png
+      :width: 400px
 
 12. Select the query condition control, you can then edit or delete it, or add another query condition under the **Condition config** tab.
 
-    .. image:: ../media/search_config_tab.png
-       
+   .. image:: ../media/search_config_tab.png
+      :width: 300px
 
 13. After the query condition configuration is completed, you can set the layout of the query condition control under the **Style** tab. The style settings take effect in real time.
 
-    - Checkbox for displaying title
-    - Checkbox for displaying border
+   - Checkbox for displaying title
+   - Checkbox for displaying border
 
 14. To delete the image control, select it first, click the |chart_spread| icon in the upper right corner of the control, and select **Delete**.
 
@@ -179,22 +179,22 @@ Data field association: When configuring the query condition control, you need t
 9. Click **OK** to complete the query condition configuration.
 
    .. image:: ../media/search_cofig_tree.png
-      
+      :width: 400px
 
 10. In the query condition control, select a filtering condition and click the **Query** button. The bar chart will display the queried data.
 
-    .. image:: ../media/search_legend_tree.png
-       
+   .. image:: ../media/search_legend_tree.png
+      :width: 400px
 
 11. Select the query condition control, you can then edit or delete it, or add another query condition under the **Condition config** tab.
 
-    .. image:: ../media/search_config_tab.png
-       
+   .. image:: ../media/search_config_tab.png
+      :width: 300px
 
 12. After the query condition configuration is completed, you can set the layout of the query condition control under the **Style** tab. The style settings take effect in real time.
 
-    - Checkbox for displaying title
-    - Checkbox for displaying border
+   - Checkbox for displaying title
+   - Checkbox for displaying border
 
 13. To delete the image control, select it first, click the |chart_spread| icon in the upper right corner of the control, and select **Delete**.
 
@@ -215,17 +215,17 @@ Data field association: When configuring the query condition control, you need t
 6. Click **OK** to complete the query condition configuration.
 
    .. image:: ../media/search_config_calendar.png
-      
+      :width: 400px
 
 7. In the query condition control, select a filtering condition and click the **Query** button. The bar chart will display the queried data.
 
    .. image:: ../media/search_legend_calendar.png
-      
+      :width: 400px
 
 8. Select the query condition control, you can then edit or delete it, or add another query condition under the **Condition config** tab.
 
    .. image:: ../media/search_config_tab.png
-      
+      :width: 300px
 
 9. After the query condition configuration is completed, you can set the layout of the query condition control under the **Style** tab. The style settings take effect in real time.
 
@@ -236,7 +236,7 @@ Data field association: When configuring the query condition control, you need t
 
 11. After all configuration is completed, click **Save** in the tool bar to save the query condition control.
 
-    .. note:: When **Date selection** control type is selected, the data type of the associated chart measure field must be date type, such as DATA, DATATIME, TIMESTAMP, TIME, and YEAR.
+   .. note:: When **Date selection** control type is selected, the data type of the associated chart measure field must be date type, such as DATA, DATATIME, TIMESTAMP, TIME, and YEAR.
 
 .. |bar_icon| image:: ../media/bar_icon.png
 
