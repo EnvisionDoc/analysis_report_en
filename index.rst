@@ -40,10 +40,3 @@ Data Analysis and Report
 
    Data Asset Management </docs/data-asset/en/latest/data_asset_overview.html>
    Data Analytics </docs/offline-data/en/latest/datalake_analytics_overview.html>
-
-Downloads
-""""""""
-    pdf_ htmlzip_ epub_
-.. _pdf: https://www.envisioniot.com/projects/analysis-report/downloads/pdf/latest/
-.. _htmlzip: https://www.envisioniot.com/projects/analysis-report/downloads/htmlzip/latest/
-.. _epub: https://www.envisioniot.com/projects/analysis-report/downloads/epub/latest/

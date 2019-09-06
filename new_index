@@ -3,10 +3,10 @@
 
 .. toctree::
    :maxdepth: 1
-   :hidden: 
+   :hidden:
    :caption: Back to
 
-   EnOS Fundamental <https://docs.eniot.io/docs/enos/en/latest/overview/enos_introduction.html>
+   EnOS Fundamental </docs/enos/en/latest/overview/enos_introduction.html>
 
 .. toctree::
    :maxdepth: 1
@@ -44,12 +44,5 @@
    :maxdepth: 1
    :caption: Related Services
 
-   Stream Analytics <https://docs.eniot.io/docs/online-data/en/latest/>
-   Offline Analytics <https://docs.eniot.io/docs/offline-data/en/latest/>
-
-Downloads
-""""""""
-    pdf_ htmlzip_ epub_
-.. _pdf: https://docs.eniot.io/projects/analysis-report/downloads/pdf/latest/
-.. _htmlzip: https://docs.eniot.io/projects/analysis-report/downloads/htmlzip/latest/
-.. _epub: https://docs.eniot.io/projects/analysis-report/downloads/epub/latest/
+   Stream Analytics </docs/online-data/en/latest/>
+   Offline Analytics </docs/offline-data/en/latest/>
