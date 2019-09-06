@@ -1,42 +1,40 @@
-﻿**************************
+**************************
 Data Analysis and Report
 **************************
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Concept
+    :maxdepth: 1
+    :caption: EnOS Data Explorer
 
-   report_overview
-   report_concepts
-   report_architecture
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Getting Started
-
-   gettingstarted_report
+    data_explorer/overview
+    data_explorer/gettingstarted
+    data_explorer/interpreter
+    data_explorer/creating_hivetable
 
 .. toctree::
    :maxdepth: 1
-   :caption: How-to's
+   :caption: EnOS BI & Report
 
-   managing_datasource
-   creating_dataset
-   managing_dataset
-   creating_report
-   charts_controls/index
-   managing_report
+   bi_report/overview
 
 .. toctree::
    :maxdepth: 1
-   :caption: Reference
+   :caption: Tableau Server
 
-   best_practice
-   report_faq
+   tableau/overview
+   tableau/using_tableau_server
+   tableau/sample_code
 
 .. toctree::
    :maxdepth: 1
    :caption: Related Services
 
-   Data Asset Management </docs/data-asset/en/latest/data_asset_overview.html>
-   Data Analytics </docs/offline-data/en/latest/datalake_analytics_overview.html>
+   Real-time data processing </docs/online-data/en/1.0/>
+   Batch data processing </docs/offline-data/en/1.0/>
+
+Downloads
+""""""""
+    pdf_ htmlzip_ epub_
+.. _pdf: https://www.envisioniot.com/projects/analysis-report/downloads/pdf/1.0/
+.. _htmlzip: https://www.envisioniot.com/projects/analysis-report/downloads/htmlzip/1.0/
+.. _epub: https://www.envisioniot.com/projects/analysis-report/downloads/epub/1.0/
